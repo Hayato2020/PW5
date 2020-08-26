@@ -1,0 +1,1729 @@
+﻿Log file open, 08/26/20 06:08:04
+LogInit: Display: Running engine for game: PW5
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.250291
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin HoudiniEngine
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: F:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.08.25-21.08.05:346][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.08.25-21.08.05:346][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.08.25-21.08.05:346][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Engine.ini]
+[2020.08.25-21.08.05:346][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.08.25-21.08.05:346][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Engine.ini]
+[2020.08.25-21.08.05:346][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Engine.ini]
+[2020.08.25-21.08.05:346][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.08.25-21.08.05:346][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.08.25-21.08.05:346][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.08.25-21.08.05:346][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.08.25-21.08.05:346][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.08.25-21.08.05:346][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.08.25-21.08.05:346][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.08.25-21.08.05:346][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.08.25-21.08.05:346][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.08.25-21.08.05:346][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.08.25-21.08.05:346][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.08.25-21.08.05:346][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.08.25-21.08.05:346][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.08.25-21.08.05:346][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.08.25-21.08.05:346][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Engine.ini]
+[2020.08.25-21.08.05:346][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.08.25-21.08.05:346][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.08.25-21.08.05:346][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.08.25-21.08.05:346][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.08.25-21.08.05:346][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.08.25-21.08.05:346][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.08.25-21.08.05:346][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.08.25-21.08.05:346][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.08.25-21.08.05:346][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.08.25-21.08.05:346][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.08.25-21.08.05:346][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.08.25-21.08.05:346][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.08.25-21.08.05:346][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.08.25-21.08.05:346][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Engine.ini]
+[2020.08.25-21.08.05:346][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Engine.ini]
+[2020.08.25-21.08.05:355][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Scalability.ini]
+[2020.08.25-21.08.05:355][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.08.25-21.08.05:355][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.08.25-21.08.05:355][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Scalability.ini]
+[2020.08.25-21.08.05:355][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.08.25-21.08.05:355][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Scalability.ini]
+[2020.08.25-21.08.05:355][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.08.25-21.08.05:355][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.08.25-21.08.05:355][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.08.25-21.08.05:355][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.08.25-21.08.05:355][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.08.25-21.08.05:355][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Scalability.ini]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Scalability.ini]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Scalability.ini]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.08.25-21.08.05:356][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Scalability.ini]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Scalability.ini]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.08.25-21.08.05:357][  0]LogInit: Selected Device Profile: [Windows]
+[2020.08.25-21.08.05:357][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.08.25-21.08.05:357][  0]LogHAL: Display: Platform has ~ 24 GB [25712603136 / 34359738368 / 24], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.08.25-21.08.05:357][  0]LogInit: Going up to parent DeviceProfile []
+[2020.08.25-21.08.05:357][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Scalability.ini]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Scalability.ini]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Scalability.ini]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Scalability.ini]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.08.25-21.08.05:357][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Scalability.ini]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Scalability.ini]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Scalability.ini]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Scalability.ini]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.08.25-21.08.05:358][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.08.25-21.08.05:363][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.08.25-21.08.05:363][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.08.25-21.08.05:363][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.08.25-21.08.05:363][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Engine.ini]
+[2020.08.25-21.08.05:363][  0]LogInit: Computer: KAMATA
+[2020.08.25-21.08.05:363][  0]LogInit: User: User01
+[2020.08.25-21.08.05:363][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.08.25-21.08.05:363][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.08.25-21.08.05:363][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
+[2020.08.25-21.08.05:363][  0]LogMemory: Platform Memory Stats for Windows
+[2020.08.25-21.08.05:363][  0]LogMemory: Process Physical Memory: 115.18 MB used, 115.18 MB peak
+[2020.08.25-21.08.05:363][  0]LogMemory: Process Virtual Memory: 101.01 MB used, 101.01 MB peak
+[2020.08.25-21.08.05:363][  0]LogMemory: Physical Memory: 5723.68 MB used,  18797.77 MB free, 24521.45 MB total
+[2020.08.25-21.08.05:363][  0]LogMemory: Virtual Memory: 5148.23 MB used,  134212576.00 MB free, 134217728.00 MB total
+[2020.08.25-21.08.05:368][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.08.25-21.08.05:576][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.08.25-21.08.05:577][  0]LogInit: Overriding language with editor language configuration option (en).
+[2020.08.25-21.08.05:577][  0]LogInit: Overriding locale with editor culture configuration option ().
+[2020.08.25-21.08.05:577][  0]LogInit: Using OS detected locale (ja-JP).
+[2020.08.25-21.08.05:766][  0]LogInit: Setting process to per monitor DPI aware
+[2020.08.25-21.08.05:847][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.08.25-21.08.05:847][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.08.25-21.08.08:006][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.08.25-21.08.08:006][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.08.25-21.08.08:006][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.08.25-21.08.08:006][  0]LogD3D11RHI: D3D11 adapters:
+[2020.08.25-21.08.08:077][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2020.08.25-21.08.08:077][  0]LogD3D11RHI:       6052/0/12260 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.08.25-21.08.08:079][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.08.25-21.08.08:079][  0]LogD3D11RHI:       0/0/12260 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.08.25-21.08.08:079][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.08.25-21.08.08:085][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.08.25-21.08.08:085][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2020.08.25-21.08.08:085][  0]LogWindows: EnumDisplayDevices:
+[2020.08.25-21.08.08:085][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2020.08.25-21.08.08:085][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.08.25-21.08.08:086][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2020.08.25-21.08.08:086][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.08.25-21.08.08:086][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.08.25-21.08.08:086][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2020.08.25-21.08.08:086][  0]LogD3D11RHI:   Driver Version: 452.06 (internal:27.21.14.5206, unified:452.06)
+[2020.08.25-21.08.08:086][  0]LogD3D11RHI:      Driver Date: 8-12-2020
+[2020.08.25-21.08.08:086][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2020.08.25-21.08.08:124][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.08.25-21.08.08:126][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.08.25-21.08.08:126][  0]LogD3D11RHI: Async texture creation enabled
+[2020.08.25-21.08.08:126][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.08.25-21.08.08:143][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.08.25-21.08.08:649][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.08.25-21.08.08:680][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.08.25-21.08.08:680][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.08.25-21.08.08:680][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.08.25-21.08.08:680][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.08.25-21.08.08:680][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.08.25-21.08.08:680][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.08.25-21.08.08:680][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.08.25-21.08.08:680][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.08.25-21.08.08:680][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.08.25-21.08.08:680][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.08.25-21.08.08:745][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.08.25-21.08.08:745][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.08.25-21.08.08:775][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.08.25-21.08.08:797][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.08.25-21.08.08:819][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.08.25-21.08.08:841][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.08.25-21.08.08:863][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.08.25-21.08.08:886][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.08.25-21.08.08:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.08.25-21.08.08:948][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.08.25-21.08.08:948][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.08.25-21.08.08:975][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.08.25-21.08.08:975][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.08.25-21.08.08:997][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.08.25-21.08.09:018][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.08.25-21.08.09:038][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.08.25-21.08.09:059][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.08.25-21.08.09:059][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.08.25-21.08.09:121][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.08.25-21.08.09:409][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (D:/Document/Unreal Projects/PW5/Intermediate/Shaders/WorkingDirectory/3840/).
+[2020.08.25-21.08.09:409][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User01/AppData/Local/Temp/UnrealShaderWorkingDir/C5C92AB44AA2FC3D3E07B79EA841BDAD/'.
+[2020.08.25-21.08.09:409][  0]LogXGEController: Cleaning working directory: C:/Users/User01/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.08.25-21.08.09:410][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.08.25-21.08.09:410][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.08.25-21.08.09:410][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.08.25-21.08.11:988][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.08.25-21.08.12:034][  0]LogDerivedDataCache: Loaded boot cache 0.05s 76MB C:/Users/User01/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.08.25-21.08.12:034][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/User01/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.08.25-21.08.12:034][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Document/Unreal Projects/PW5/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.08.25-21.08.12:034][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.08.25-21.08.12:034][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Document/Unreal Projects/PW5/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.08.25-21.08.12:034][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.08.25-21.08.12:048][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.08.25-21.08.12:048][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.08.25-21.08.12:048][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.08.25-21.08.12:049][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User01/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.08.25-21.08.12:049][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.08.25-21.08.12:049][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.08.25-21.08.12:095][  0]LogSlate: Using FreeType 2.10.0
+[2020.08.25-21.08.12:106][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.08.25-21.08.12:159][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2020.08.25-21.08.12:384][  0]LogInit: Selected Device Profile: [Windows]
+[2020.08.25-21.08.12:767][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.08.25-21.08.12:767][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.08.25-21.08.12:767][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.08.25-21.08.12:767][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.08.25-21.08.12:767][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.08.25-21.08.12:820][  0]LogNetVersion: PW5 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 377290373)
+[2020.08.25-21.08.13:889][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002EF5B86F740), frame # 0
+[2020.08.25-21.08.13:889][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002EF5B8A0540), frame # 0
+[2020.08.25-21.08.13:890][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002EF5B9BE800), frame # 0
+[2020.08.25-21.08.13:958][  0]LogPackageLocalizationCache: Processed 20 localized package path(s) for 1 prioritized culture(s) in 0.053114 seconds
+[2020.08.25-21.08.13:963][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.08.25-21.08.13:963][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.08.25-21.08.13:963][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.08.25-21.08.15:405][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.08.25-21.08.15:423][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.08.25-21.08.15:788][  0]SourceControl: Source control is disabled
+[2020.08.25-21.08.15:788][  0]SourceControl: Source control is disabled
+[2020.08.25-21.08.15:809][  0]SourceControl: Source control is disabled
+[2020.08.25-21.08.15:825][  0]SourceControl: Source control is disabled
+[2020.08.25-21.08.15:859][  0]SourceControl: Source control is disabled
+[2020.08.25-21.08.16:978][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.08.25-21.08.17:072][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.08.25-21.08.17:072][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.08.25-21.08.17:177][  0]LogHoudiniEngine: Starting the Houdini Engine module.
+[2020.08.25-21.08.17:188][  0]LogHoudiniEngine: Loaded libHAPIL.dll from Registry path C:/Program Files/SideFX/Houdini18.0.532/bin
+[2020.08.25-21.08.17:192][  0]LogLinker: Warning: Asset '../../Plugins/Runtime/HoudiniEngine/Content/houdini_logo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2020.08.25-21.08.17:199][  0]LogLinker: Warning: Asset '../../Plugins/Runtime/HoudiniEngine/Content/houdini_default_material.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2020.08.25-21.08.17:206][  0]LogLinker: Warning: Asset '../../Plugins/Runtime/HoudiniEngine/Content/houdini_bgeo_import.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2020.08.25-21.08.17:306][  0]LogOcInput: OculusInput pre-init called
+[2020.08.25-21.08.17:353][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.08.25-21.08.17:353][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.08.25-21.08.17:572][  0]LogEngine: Initializing Engine...
+[2020.08.25-21.08.17:573][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.08.25-21.08.17:573][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.08.25-21.08.17:574][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.08.25-21.08.17:920][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.08.25-21.08.17:947][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.08.25-21.08.17:947][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002EF5F8F4800), frame # 0
+[2020.08.25-21.08.17:947][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002EF5F920B80), frame # 0
+[2020.08.25-21.08.17:973][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.25-21.08.17:973][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.25-21.08.17:973][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.25-21.08.17:973][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.25-21.08.17:973][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.25-21.08.17:973][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.25-21.08.17:973][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.25-21.08.17:973][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.25-21.08.17:973][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.25-21.08.17:973][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.25-21.08.18:015][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.25-21.08.18:015][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.08.25-21.08.18:107][  0]LogAudioMixer: Display: Using Audio Device ライン (Steinberg UR22)
+[2020.08.25-21.08.18:108][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.25-21.08.18:136][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.25-21.08.18:136][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.25-21.08.18:138][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.25-21.08.18:139][  0]LogInit: FAudioDevice initialized.
+[2020.08.25-21.08.18:139][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.08.25-21.08.18:243][  0]LogDerivedDataCache: Saved boot cache 0.10s 76MB C:/Users/User01/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.08.25-21.08.18:249][  0]LogInit: Texture streaming: Enabled
+[2020.08.25-21.08.18:329][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.08.25-21.08.18:329][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.08.25-21.08.18:330][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.08.25-21.08.18:438][  0]LogInit: Transaction tracking system initialized
+[2020.08.25-21.08.18:549][  0]BlueprintLog: New page: Editor Load
+[2020.08.25-21.08.18:904][  0]LocalizationService: Localization service is disabled
+[2020.08.25-21.08.19:591][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.08.25-21.08.19:591][  0]LogCook: Display: Mobile HDR setting 1
+[2020.08.25-21.08.19:605][  0]LogFileCache: Scanning file cache for directory 'D:/Document/Unreal Projects/PW5/Content/' took 0.01s
+[2020.08.25-21.08.20:222][  0]LogHoudiniEngineEditor: Starting the Houdini Engine Editor module.
+[2020.08.25-21.08.20:224][  0]LogHoudiniEngineEditor: Houdini Engine Editor module startup complete.
+[2020.08.25-21.08.20:577][  0]SourceControl: Source control is disabled
+[2020.08.25-21.08.20:577][  0]LogUnrealEdMisc: Loading editor; pre map load, took 18.925
+[2020.08.25-21.08.20:577][  0]Cmd: MAP LOAD FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.08.25-21.08.20:578][  0]LightingResults: New page: Lighting Build
+[2020.08.25-21.08.20:578][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.08.25-21.08.20:578][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.25-21.08.20:579][  0]MapCheck: New page: Map Check
+[2020.08.25-21.08.20:579][  0]LightingResults: New page: Lighting Build
+[2020.08.25-21.08.20:587][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002EF5F8F4800), frame # 0
+[2020.08.25-21.08.20:587][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002EF5F920B80), frame # 0
+[2020.08.25-21.08.20:588][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2020.08.25-21.08.20:997][  0]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2020.08.25-21.08.20:997][  0]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2020.08.25-21.08.20:997][  0]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2020.08.25-21.08.21:675][  0]LogAIModule: Creating AISystem for world Level001
+[2020.08.25-21.08.21:675][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002EF54B6FE00), frame # 0
+[2020.08.25-21.08.21:675][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002EF54C2A0C0), frame # 0
+[2020.08.25-21.08.21:700][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.08.25-21.08.21:716][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2020.08.25-21.08.21:718][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.08.25-21.08.21:718][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.226ms to complete.
+[2020.08.25-21.08.21:718][  0]LogFileHelpers: Loading map 'Level001' took 1.141
+[2020.08.25-21.08.21:720][  0]LogUnrealEdMisc: Total Editor Startup Time, took 20.068
+[2020.08.25-21.08.21:911][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.25-21.08.21:921][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.25-21.08.21:927][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.25-21.08.21:934][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.25-21.08.21:967][  0]LogCollectionManager: Loaded 0 collections in 0.000943 seconds
+[2020.08.25-21.08.21:982][  0]LogFileCache: Scanning file cache for directory 'D:/Document/Unreal Projects/PW5/Saved/Collections/' took 0.00s
+[2020.08.25-21.08.21:982][  0]LogFileCache: Scanning file cache for directory 'D:/Document/Unreal Projects/PW5/Content/Developers/User01/Collections/' took 0.00s
+[2020.08.25-21.08.21:982][  0]LogFileCache: Scanning file cache for directory 'D:/Document/Unreal Projects/PW5/Content/Collections/' took 0.00s
+[2020.08.25-21.08.21:982][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 3466 classes and 831 folders.
+[2020.08.25-21.08.21:985][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.08.25-21.08.22:305][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.08.25-21.08.22:785][  0]LogHoudiniEngine: Error: Hapi failed: 
+[2020.08.25-21.08.22:872][  0]LogSlate: Took 0.004965 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.08.25-21.08.22:881][  0]LogSlate: Took 0.004005 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.08.25-21.08.23:000][  0]LogRenderer: Reallocating scene render targets to support 1144x520 Format 10 NumSamples 1 (Frame:1).
+[2020.08.25-21.08.23:180][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.08.25-21.08.23:181][  0]LogLoad: (Engine Initialization) Total time: 21.53 seconds
+[2020.08.25-21.08.23:181][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.08.25-21.08.23:307][  0]LogAssetRegistry: Asset discovery search completed in 11.1485 seconds
+[2020.08.25-21.08.23:316][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
+[2020.08.25-21.08.23:318][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.08.25-21.10.34:852][974]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (round_table)
+[2020.08.25-21.10.34:900][974]LogSlate: Took 0.006053 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.08.25-21.10.35:531][ 43]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (chair_chair2)
+[2020.08.25-21.10.36:405][141]LogEditorViewport: Clicking on Actor (LMB): Cab_C (Cab)
+[2020.08.25-21.10.36:875][193]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (round_table)
+[2020.08.25-21.10.37:581][272]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2020.08.25-21.10.38:187][337]LogEditorViewport: Clicking Background
+[2020.08.25-21.10.40:422][604]LogEditorViewport: Clicking on Actor (LMB): Sof_C (Sof)
+[2020.08.25-21.10.40:952][662]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (closet3)
+[2020.08.25-21.10.41:683][743]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (closet2)
+[2020.08.25-21.10.42:668][854]LogEditorViewport: Clicking Background
+[2020.08.25-21.10.45:209][158]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube4)
+[2020.08.25-21.10.46:113][252]LogEditorViewport: Clicking Background
+[2020.08.25-21.10.47:046][363]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2020.08.25-21.10.47:729][438]LogEditorViewport: Clicking Background
+[2020.08.25-21.10.54:866][286]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (chandelier2)
+[2020.08.25-21.10.55:433][345]LogEditorViewport: Clicking Background
+[2020.08.25-21.11.12:367][311]LogSlate: Took 0.004279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.08.25-21.12.49:700][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.08.25-21.12.54:486][534]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.08.25-21.12.54:543][534]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.08.25-21.12.54:544][534]LogMetaData: Removing '/Game/BluePrints/staircase.SKEL_staircase_C' ref from Metadata '/Game/BluePrints/Ladder1.PackageMetaData'
+[2020.08.25-21.12.54:544][534]LogMetaData: Removing '/Game/BluePrints/staircase.staircase_C' ref from Metadata '/Game/BluePrints/Ladder1.PackageMetaData'
+[2020.08.25-21.12.54:586][534]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/staircase" FILE="D:/Document/Unreal Projects/PW5/Content/BluePrints/staircase.uasset" SILENT=true
+[2020.08.25-21.12.54:638][534]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/staircase42018B4643C2D823426886BBEA714CCD.tmp' to 'D:/Document/Unreal Projects/PW5/Content/BluePrints/staircase.uasset'
+[2020.08.25-21.12.54:744][534]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.08.25-21.12.54:760][534]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.08.25-21.12.54:768][534]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2020.08.25-21.12.54:805][534]AssetCheck: New page: Asset Save: staircase
+[2020.08.25-21.12.54:805][534]LogContentValidation: Display: Validating Blueprint /Game/BluePrints/staircase.staircase
+[2020.08.25-21.12.56:340][666]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/staircase.staircase
+[2020.08.25-21.12.56:821][666]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 125 classes and 0 folders.
+[2020.08.25-21.12.57:914][666]LogSlate: Took 0.013290 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.08.25-21.12.58:095][668]LogSlate: Took 0.004577 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.08.25-21.13.07:797][328]LogRenderer: Reallocating scene render targets to support 1144x724 Format 10 NumSamples 1 (Frame:1).
+[2020.08.25-21.13.25:074][992]LogEditorTransaction: Undo Modify Component(s)
+[2020.08.25-21.18.53:623][830]LogEditorTransaction: Undo Modify Component Location
+[2020.08.25-21.20.00:488][928]BlueprintLog: New page: Compile staircase
+[2020.08.25-21.20.00:858][928]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2020.08.25-21.20.00:900][928]LogSlate: Took 0.006095 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.08.25-21.20.01:395][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/staircase" FILE="D:/Document/Unreal Projects/PW5/Content/BluePrints/staircase.uasset" SILENT=true
+[2020.08.25-21.20.01:472][972]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/staircaseE4A31A50451BAD0FA7B60D9248F2993E.tmp' to 'D:/Document/Unreal Projects/PW5/Content/BluePrints/staircase.uasset'
+[2020.08.25-21.20.01:486][972]AssetCheck: New page: Asset Save: staircase
+[2020.08.25-21.20.01:486][972]LogContentValidation: Display: Validating Blueprint /Game/BluePrints/staircase.staircase
+[2020.08.25-21.21.06:396][319]BlueprintLog: New page: Compile staircase
+[2020.08.25-21.21.06:470][319]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
+[2020.08.25-21.21.07:131][374]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/staircase" FILE="D:/Document/Unreal Projects/PW5/Content/BluePrints/staircase.uasset" SILENT=true
+[2020.08.25-21.21.07:208][374]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/staircaseC4486CC744BF857E824388A9537A4E8B.tmp' to 'D:/Document/Unreal Projects/PW5/Content/BluePrints/staircase.uasset'
+[2020.08.25-21.21.07:222][374]AssetCheck: New page: Asset Save: staircase
+[2020.08.25-21.21.07:222][374]LogContentValidation: Display: Validating Blueprint /Game/BluePrints/staircase.staircase
+[2020.08.25-21.21.10:888][715]LogSlate: Window 'staircase' being destroyed
+[2020.08.25-21.21.31:387][684]Cmd: TRANSACTION UNDO
+[2020.08.25-21.21.31:387][684]LogEditorTransaction: Undo Create Actors
+[2020.08.25-21.21.50:099][728]LogEditorViewport: Clicking Background
+[2020.08.25-21.21.50:743][797]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2020.08.25-21.21.50:770][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.21.50:788][797]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2020.08.25-21.21.50:848][797]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001C23E560F4043CF4E277DDA817E3721D7.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.21.50:897][797]LogFileHelpers: Saving map 'Level001' took 0.127
+[2020.08.25-21.21.50:898][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.21.51:003][797]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltData4F5422FC40E92AC4619BF8B4D9F0749C.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.21.51:019][797]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.21.51:019][797]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.21.51:019][797]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.21.51:798][889]LogEditorViewport: Clicking on Actor (LMB): staircase_C (staircase)
+[2020.08.25-21.21.53:533][ 90]LogEditorViewport: Clicking on Actor (LMB): staircase_C (staircase)
+[2020.08.25-21.21.57:631][562]LogEditorViewport: Clicking Background
+[2020.08.25-21.21.58:150][621]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2020.08.25-21.21.58:169][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.21.58:187][621]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.08.25-21.21.58:248][621]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001778551394A2460139ED7C1BC748F4033.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.21.58:284][621]LogFileHelpers: Saving map 'Level001' took 0.116
+[2020.08.25-21.21.58:284][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.21.58:337][621]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltDataB1E8A99B4FFB3E7F13F82FB6C21FF593.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.21.58:355][621]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.21.58:355][621]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.21.58:355][621]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.21.59:385][730]LogTemp: Repeating last play command: Selected Viewport
+[2020.08.25-21.21.59:415][730]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.25-21.21.59:416][730]PIE: New page: PIE session: Level001 (2020/08/26 15:21:59)
+[2020.08.25-21.21.59:417][730]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.08.25-21.21.59:419][730]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.08.25-21.21.59:419][730]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level001
+[2020.08.25-21.21.59:427][730]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007451s)
+[2020.08.25-21.21.59:428][730]LogAIModule: Creating AISystem for world Level001
+[2020.08.25-21.21.59:428][730]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002EF18A82E00), frame # 64730
+[2020.08.25-21.21.59:428][730]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002EF1807A5C0), frame # 64730
+[2020.08.25-21.21.59:428][730]LogPlayLevel: PIE: World Init took: (0.001325s)
+[2020.08.25-21.21.59:428][730]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level001.Level001 to /Game/Levels/UEDPIE_0_Level001.Level001 (0.008956s)
+[2020.08.25-21.21.59:448][730]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2020.08.25-21.21.59:449][730]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.25-21.21.59:449][730]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.25-21.21.59:449][730]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.25-21.21.59:449][730]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.25-21.21.59:449][730]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.25-21.21.59:449][730]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.25-21.21.59:449][730]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.25-21.21.59:449][730]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.25-21.21.59:450][730]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.25-21.21.59:450][730]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.25-21.21.59:457][730]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.25-21.21.59:457][730]LogAudioMixer: Display: 1: FrontRight
+[2020.08.25-21.21.59:473][730]LogAudioMixer: Display: Using Audio Device ライン (Steinberg UR22)
+[2020.08.25-21.21.59:473][730]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.25-21.21.59:473][730]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.25-21.21.59:473][730]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.25-21.21.59:473][730]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.25-21.21.59:486][730]LogInit: FAudioDevice initialized.
+[2020.08.25-21.21.59:498][730]LogLoad: Game class is 'PW5GameMode_C'
+[2020.08.25-21.21.59:502][730]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level001.Level001 up for play (max tick rate 0) at 2020.08.26-06.21.59
+[2020.08.25-21.21.59:502][730]LogWorld: Bringing up level for play took: 0.002092
+[2020.08.25-21.21.59:502][730]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2020.08.25-21.21.59:507][730]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2020.08.25-21.21.59:517][730]PIE: Server logged in
+[2020.08.25-21.21.59:519][730]PIE: Play in editor total start time 0.109 seconds.
+[2020.08.25-21.22.03:542][162]LogBlueprintUserMessages: [staircase_6] Can Use a Ladder
+[2020.08.25-21.22.04:326][255]LogBlueprintUserMessages: [staircase_6] X=0.000 Y=550.000 Z=20.000
+[2020.08.25-21.22.04:327][255]LogBlueprintUserMessages: [staircase_6] Can NOT Use a Ladder
+[2020.08.25-21.22.04:818][314]LogBlueprintUserMessages: [staircase_6] Can Use a Ladder
+[2020.08.25-21.22.04:818][314]LogBlueprintUserMessages: [staircase_6] X=0.000 Y=550.000 Z=20.000
+[2020.08.25-21.22.07:528][630]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.25-21.22.07:528][630]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level001
+[2020.08.25-21.22.07:528][630]LogWorld: UWorld::CleanupWorld for Level001, bSessionEnded=true, bCleanupResources=true
+[2020.08.25-21.22.07:529][630]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.25-21.22.07:535][630]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.25-21.22.07:539][630]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.25-21.22.07:581][630]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.25-21.22.07:604][630]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002EF1807A5C0), frame # 65630
+[2020.08.25-21.22.07:604][630]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002EF18A82E00), frame # 65630
+[2020.08.25-21.22.07:610][630]LogUObjectHash: Compacting FUObjectHashTables data took   5.47ms
+[2020.08.25-21.22.07:666][631]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2020.08.25-21.23.10:931][659]BlueprintLog: New page: Compile staircase
+[2020.08.25-21.23.11:070][659]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2020.08.25-21.23.15:307][147]BlueprintLog: New page: Compile staircase
+[2020.08.25-21.23.15:397][147]LogUObjectHash: Compacting FUObjectHashTables data took   4.10ms
+[2020.08.25-21.23.17:597][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/staircase" FILE="D:/Document/Unreal Projects/PW5/Content/BluePrints/staircase.uasset" SILENT=true
+[2020.08.25-21.23.17:662][399]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/staircase0213BFF843B37F6F13353AB33235496C.tmp' to 'D:/Document/Unreal Projects/PW5/Content/BluePrints/staircase.uasset'
+[2020.08.25-21.23.17:679][399]AssetCheck: New page: Asset Save: staircase
+[2020.08.25-21.23.17:679][399]LogContentValidation: Display: Validating Blueprint /Game/BluePrints/staircase.staircase
+[2020.08.25-21.23.23:229][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2020.08.25-21.23.23:252][ 50]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.23.23:274][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.08.25-21.23.23:324][ 50]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level00107B28D5D48129C3181B09C869131E4FA.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.23.23:366][ 50]LogFileHelpers: Saving map 'Level001' took 0.114
+[2020.08.25-21.23.23:366][ 50]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.23.23:413][ 50]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltDataF0B543A142F74E63577509AC5BF35ECB.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.23.23:431][ 50]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.23.23:431][ 50]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.23.23:431][ 50]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.23.28:391][637]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2020.08.25-21.23.36:086][484]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2020.08.25-21.23.59:680][981]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.08.25-21.25.05:812][506]LogEditorViewport: Clicking on Actor (LMB): LockableDoor_C (LockableDoor2)
+[2020.08.25-21.25.08:107][758]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2020.08.25-21.25.08:136][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.25.08:158][758]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.08.25-21.25.08:215][758]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level00139EA9FEE4A343CC142C73283BF052240.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.25.08:254][758]LogFileHelpers: Saving map 'Level001' took 0.119
+[2020.08.25-21.25.08:254][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.25.08:307][758]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltDataF980631C4550292BA9DED298E8C69FB4.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.25.08:331][758]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.25.08:331][758]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.25.08:331][758]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.25.16:486][274]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/LockableDoor.LockableDoor
+[2020.08.25-21.25.16:984][275]LogSlate: Took 0.018085 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.08.25-21.25.43:096][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2020.08.25-21.25.43:118][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.25.43:144][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.08.25-21.25.43:211][ 49]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001CCAB811F45AF52CC689662BC6D2E538A.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.25.43:254][ 49]LogFileHelpers: Saving map 'Level001' took 0.136
+[2020.08.25-21.25.43:254][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.25.43:309][ 49]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltData68DE7C4641EC12CA9EE2FF81FC13CA41.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.25.43:323][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/LockableDoor" FILE="D:/Document/Unreal Projects/PW5/Content/BluePrints/LockableDoor.uasset" SILENT=true
+[2020.08.25-21.25.43:395][ 49]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/LockableDoor58829BBA4D9FF3F5C1922FA14B4DA086.tmp' to 'D:/Document/Unreal Projects/PW5/Content/BluePrints/LockableDoor.uasset'
+[2020.08.25-21.25.43:420][ 49]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.25.43:420][ 49]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.25.43:420][ 49]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.25.43:420][ 49]LogContentValidation: Display: Validating Blueprint /Game/BluePrints/LockableDoor.LockableDoor
+[2020.08.25-21.26.00:204][753]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2020.08.25-21.26.00:217][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.26.00:248][753]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2020.08.25-21.26.00:299][753]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level0013E5A67124ED1E8B5AB02A7BF307EBCE8.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.26.00:335][753]LogFileHelpers: Saving map 'Level001' took 0.118
+[2020.08.25-21.26.00:335][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.26.00:386][753]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltData1CC000574ECC0D90DA382682F229EEB3.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.26.00:389][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/LockableDoor" FILE="D:/Document/Unreal Projects/PW5/Content/BluePrints/LockableDoor.uasset" SILENT=true
+[2020.08.25-21.26.00:443][753]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/LockableDoor23921ED945214A27E8D71089824BA681.tmp' to 'D:/Document/Unreal Projects/PW5/Content/BluePrints/LockableDoor.uasset'
+[2020.08.25-21.26.00:466][753]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.26.00:466][753]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.26.00:466][753]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.26.00:466][753]LogContentValidation: Display: Validating Blueprint /Game/BluePrints/LockableDoor.LockableDoor
+[2020.08.25-21.27.20:573][201]BlueprintLog: New page: Compile LockableDoor
+[2020.08.25-21.27.20:690][201]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2020.08.25-21.27.37:737][193]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
+[2020.08.25-21.27.37:770][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.27.37:801][193]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2020.08.25-21.27.37:881][193]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level0019C13B8EC41A989D8D7D00B97EA6B2597.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.27.37:919][193]LogFileHelpers: Saving map 'Level001' took 0.149
+[2020.08.25-21.27.37:919][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.27.37:979][193]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltDataFB7744004D0FA74A0ECF429B803351F8.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.27.37:993][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/LockableDoor" FILE="D:/Document/Unreal Projects/PW5/Content/BluePrints/LockableDoor.uasset" SILENT=true
+[2020.08.25-21.27.38:056][193]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/LockableDoorC9940C0645E639621B2B7C9DB29EF41D.tmp' to 'D:/Document/Unreal Projects/PW5/Content/BluePrints/LockableDoor.uasset'
+[2020.08.25-21.27.38:081][193]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.27.38:081][193]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.27.38:081][193]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.27.38:081][193]LogContentValidation: Display: Validating Blueprint /Game/BluePrints/LockableDoor.LockableDoor
+[2020.08.25-21.28.03:019][ 35]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube20)
+[2020.08.25-21.28.09:180][729]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2020.08.25-21.28.49:584][406]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2020.08.25-21.28.49:601][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.28.49:630][406]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.08.25-21.28.49:682][406]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001DB867E5B4ABD6016EE390D9183E19C32.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.28.49:719][406]LogFileHelpers: Saving map 'Level001' took 0.119
+[2020.08.25-21.28.49:720][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.28.49:769][406]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltDataD56E8E734E3EA460D23E12A0ADEBDFE1.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.28.49:780][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/LockableDoor" FILE="D:/Document/Unreal Projects/PW5/Content/BluePrints/LockableDoor.uasset" SILENT=true
+[2020.08.25-21.28.49:843][406]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/LockableDoorA89431A54C462AACB7A6098C554C06F1.tmp' to 'D:/Document/Unreal Projects/PW5/Content/BluePrints/LockableDoor.uasset'
+[2020.08.25-21.28.49:871][406]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.28.49:871][406]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.28.49:871][406]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.28.49:871][406]LogContentValidation: Display: Validating Blueprint /Game/BluePrints/LockableDoor.LockableDoor
+[2020.08.25-21.28.51:246][565]BlueprintLog: New page: Compile LockableDoor
+[2020.08.25-21.28.51:305][565]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2020.08.25-21.28.56:829][187]LogEditorViewport: Clicking Background
+[2020.08.25-21.28.57:518][269]LogEditorViewport: Clicking on Actor (LMB): LockableDoor_C (LockableDoor2)
+[2020.08.25-21.29.06:993][327]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2020.08.25-21.29.07:019][327]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.29.07:049][327]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.08.25-21.29.07:117][327]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001F76DE1ED4210CE3D096F63969B9C12EC.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.29.07:158][327]LogFileHelpers: Saving map 'Level001' took 0.140
+[2020.08.25-21.29.07:158][327]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.29.07:215][327]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltDataED6C8F684AEFC2146707D4968CC2D625.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.29.07:235][327]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.29.07:235][327]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.29.07:235][327]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.29.12:355][915]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube20)
+[2020.08.25-21.29.13:491][ 41]Cmd: DELETE
+[2020.08.25-21.29.13:491][ 41]Cmd: ACTOR DELETE
+[2020.08.25-21.29.13:500][ 41]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.08.25-21.29.13:526][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.08.25-21.29.13:528][ 41]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2020.08.25-21.29.15:596][288]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube21)
+[2020.08.25-21.29.16:804][423]Cmd: DELETE
+[2020.08.25-21.29.16:804][423]Cmd: ACTOR DELETE
+[2020.08.25-21.29.16:806][423]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.08.25-21.29.16:837][423]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.08.25-21.29.16:839][423]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2020.08.25-21.29.17:348][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.08.25-21.29.17:369][480]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.29.17:399][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.08.25-21.29.17:460][480]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001EE0046AC4EB6FDDBC75D958DE7A28ED5.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.29.17:504][480]LogFileHelpers: Saving map 'Level001' took 0.135
+[2020.08.25-21.29.17:504][480]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.29.17:559][480]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltData93D7F6A64AD15249DD453C953A2FBB0F.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.29.17:586][480]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.29.17:587][480]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.29.17:587][480]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.29.21:038][892]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2020.08.25-21.29.21:254][912]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.08.25-21.30.13:610][785]LogEditorViewport: Clicking Background
+[2020.08.25-21.30.14:077][840]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2020.08.25-21.30.16:072][ 61]LogEditorViewport: Clicking Background
+[2020.08.25-21.30.19:378][455]LogEditorViewport: Clicking on Actor (LMB): LockableDoor_C (LockableDoor2)
+[2020.08.25-21.30.34:275][136]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2020.08.25-21.30.49:893][908]LogEditorViewport: Clicking on Actor (LMB): LockableDoor_C (LockableDoor2)
+[2020.08.25-21.31.02:049][261]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2020.08.25-21.31.02:066][261]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.31.02:101][261]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.08.25-21.31.02:182][261]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level00114E6456A416BCF3689536283BE9E0F2D.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.31.02:220][261]LogFileHelpers: Saving map 'Level001' took 0.153
+[2020.08.25-21.31.02:220][261]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.31.02:286][261]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltDataB2266DE14004C275F33BF8A8C8BDA533.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.31.02:306][261]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.31.02:306][261]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.31.02:306][261]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.31.06:403][730]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2020.08.25-21.31.09:375][ 58]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2020.08.25-21.31.11:020][244]Cmd: DELETE
+[2020.08.25-21.31.11:020][244]Cmd: ACTOR DELETE
+[2020.08.25-21.31.11:022][244]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.08.25-21.31.11:050][244]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.08.25-21.31.11:052][244]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2020.08.25-21.31.14:079][606]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2020.08.25-21.31.45:550][141]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube25)
+[2020.08.25-21.31.46:427][236]LogEditorViewport: Clicking on Actor (LMB): LockableDoor_C (LockableDoor3)
+[2020.08.25-21.31.58:117][538]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2020.08.25-21.31.58:133][538]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.31.58:161][538]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.08.25-21.31.58:227][538]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level0019E28FB59483343DA582D4D952B5A212F.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.31.58:261][538]LogFileHelpers: Saving map 'Level001' took 0.128
+[2020.08.25-21.31.58:261][538]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.31.58:318][538]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltData06A5DF544407B7F04EABB7B7608991ED.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.31.58:340][538]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.31.58:340][538]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.31.58:340][538]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.32.01:804][935]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2020.08.25-21.32.10:451][909]LogEditorViewport: Clicking Background
+[2020.08.25-21.32.14:486][388]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2020.08.25-21.32.14:516][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.32.14:544][388]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.08.25-21.32.14:602][388]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level0017289C8B0459AA338B8CD53A3220C7F43.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.32.14:643][388]LogFileHelpers: Saving map 'Level001' took 0.128
+[2020.08.25-21.32.14:643][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.32.14:699][388]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltData3A1EDCEB42B33BAC45063E94CF9B213C.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.32.14:723][388]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.32.14:723][388]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.32.14:723][388]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.32.24:976][612]LogEditorViewport: Clicking Background
+[2020.08.25-21.32.25:519][677]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube23)
+[2020.08.25-21.32.33:197][536]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2020.08.25-21.32.37:287][988]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.08.25-21.32.37:316][988]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.32.37:345][988]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.08.25-21.32.37:406][988]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001BE4D40264FAC887DFCCFDC896CC3F769.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.32.37:444][988]LogFileHelpers: Saving map 'Level001' took 0.128
+[2020.08.25-21.32.37:445][988]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.32.37:503][988]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltData4202F1AD4FE396E60E3CBBA31D6C1FA5.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.32.37:524][988]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.32.37:524][988]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.32.37:524][988]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.32.42:639][563]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2020.08.25-21.32.44:882][818]Cmd: DUPLICATE
+[2020.08.25-21.32.44:882][818]Cmd: ACTOR DUPLICATE
+[2020.08.25-21.33.10:679][731]LogEditorViewport: Clicking on Actor (LMB): LockableDoor_C (LockableDoor4)
+[2020.08.25-21.33.34:589][416]LogEditorViewport: Clicking Background
+[2020.08.25-21.33.35:125][476]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2020.08.25-21.33.35:149][476]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.33.35:181][476]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.08.25-21.33.35:245][476]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001518B70BE4EE56F0ACFB52EAF4199AD11.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.33.35:290][476]LogFileHelpers: Saving map 'Level001' took 0.142
+[2020.08.25-21.33.35:290][476]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.33.35:346][476]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltData4C99726846CC9755B72D70B5D17D82BB.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.33.35:379][476]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.33.35:379][476]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.33.35:379][476]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.33.36:380][594]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube25)
+[2020.08.25-21.33.45:812][661]Cmd: DELETE
+[2020.08.25-21.33.45:812][661]Cmd: ACTOR DELETE
+[2020.08.25-21.33.45:814][661]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.08.25-21.33.45:844][661]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.08.25-21.33.45:846][661]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2020.08.25-21.33.46:597][748]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.08.25-21.33.46:615][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.33.46:643][748]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.08.25-21.33.46:698][748]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level0010997B6DF4D20DB253CAE97B504B06C8F.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.33.46:733][748]LogFileHelpers: Saving map 'Level001' took 0.117
+[2020.08.25-21.33.46:733][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.33.46:784][748]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltData0C131C9D458AE3B9667660B0C3A0AB94.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.33.46:806][748]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.33.46:806][748]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.33.46:806][748]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.33.54:982][725]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (closet2)
+[2020.08.25-21.34.01:603][481]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2020.08.25-21.34.02:193][543]LogEditorViewport: Clicking Background
+[2020.08.25-21.34.02:790][614]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2020.08.25-21.34.05:222][884]Cmd: DELETE
+[2020.08.25-21.34.05:222][884]Cmd: ACTOR DELETE
+[2020.08.25-21.34.05:224][884]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.08.25-21.34.05:224][884]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.08.25-21.34.05:259][884]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2020.08.25-21.34.05:260][884]LogEditorActor: Deleted 2 Actors (0.038 secs)
+[2020.08.25-21.34.05:636][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.34.05:665][926]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.08.25-21.34.05:737][926]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level00157D48E5E4385B05D3E41F8BDE92406C4.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.34.05:779][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.34.05:832][926]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltData05D4876A475B1E66472A4A89D831C84F.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.34.05:871][926]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.34.05:871][926]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.34.05:871][926]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.34.09:650][376]LogEditorViewport: Clicking on Actor (LMB): Ladder_C (Ladder2)
+[2020.08.25-21.34.14:720][963]LogEditorViewport: Clicking Background
+[2020.08.25-21.34.18:583][425]LogEditorViewport: Clicking on Actor (LMB): staircase_C (staircase)
+[2020.08.25-21.34.19:938][578]Cmd: DUPLICATE
+[2020.08.25-21.34.19:938][578]Cmd: ACTOR DUPLICATE
+[2020.08.25-21.34.31:461][890]LogEditorViewport: Clicking Background
+[2020.08.25-21.34.32:045][959]LogEditorViewport: Clicking on Actor (LMB): Ladder_C (Ladder2)
+[2020.08.25-21.34.33:536][128]Cmd: DELETE
+[2020.08.25-21.34.33:536][128]Cmd: ACTOR DELETE
+[2020.08.25-21.34.33:539][128]LogEditorActor: Deleted Actor: Ladder_C
+[2020.08.25-21.34.33:571][128]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2020.08.25-21.34.33:573][128]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2020.08.25-21.34.39:985][893]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2020.08.25-21.34.40:908][992]Cmd: DUPLICATE
+[2020.08.25-21.34.40:909][992]Cmd: ACTOR DUPLICATE
+[2020.08.25-21.34.47:198][698]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2020.08.25-21.34.48:115][797]LogEditorViewport: Clicking on Actor (LMB): LockableDoor_C (LockableDoor3)
+[2020.08.25-21.34.49:211][920]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2020.08.25-21.34.57:788][896]LogEditorViewport: Clicking Background
+[2020.08.25-21.34.59:232][ 68]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2020.08.25-21.35.06:421][860]LogEditorViewport: Clicking Background
+[2020.08.25-21.35.07:781][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2020.08.25-21.35.07:798][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.35.07:831][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.08.25-21.35.07:904][ 18]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level00199FE486B4B2D38666BFA6B89BE9FDF0D.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.35.07:946][ 18]LogFileHelpers: Saving map 'Level001' took 0.148
+[2020.08.25-21.35.07:946][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.35.08:006][ 18]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltDataBE7C760642053FCC44B0658CBA83C3A5.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.35.08:025][ 18]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.35.08:025][ 18]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.35.08:026][ 18]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.35.09:350][175]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube22)
+[2020.08.25-21.35.11:435][403]LogEditorViewport: Clicking Background
+[2020.08.25-21.35.12:977][587]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2020.08.25-21.35.13:568][649]Cmd: DUPLICATE
+[2020.08.25-21.35.13:568][649]Cmd: ACTOR DUPLICATE
+[2020.08.25-21.35.16:449][973]LogEditorViewport: Clicking Background
+[2020.08.25-21.35.16:872][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2020.08.25-21.35.16:900][ 19]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.35.16:931][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.08.25-21.35.16:991][ 19]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level00129D5C8CD480C148BA6944DA4F7CF0609.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.35.17:033][ 19]LogFileHelpers: Saving map 'Level001' took 0.133
+[2020.08.25-21.35.17:033][ 19]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.35.17:087][ 19]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltDataC36E3F3F45931B057CCA609E323FB7A4.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.35.17:108][ 19]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.35.17:108][ 19]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.35.17:108][ 19]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.35.25:056][966]LogEditorViewport: Clicking on Actor (LMB): staircase_C (staircase2)
+[2020.08.25-21.35.27:094][194]Cmd: DUPLICATE
+[2020.08.25-21.35.27:094][194]Cmd: ACTOR DUPLICATE
+[2020.08.25-21.35.29:798][497]LogEditorViewport: Clicking Background
+[2020.08.25-21.35.30:599][592]LogEditorViewport: Clicking on Actor (LMB): Ladder_C (Ladder)
+[2020.08.25-21.35.31:376][677]Cmd: DELETE
+[2020.08.25-21.35.31:376][677]Cmd: ACTOR DELETE
+[2020.08.25-21.35.31:379][677]LogEditorActor: Deleted Actor: Ladder_C
+[2020.08.25-21.35.31:418][677]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2020.08.25-21.35.31:420][677]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2020.08.25-21.35.31:846][725]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.08.25-21.35.31:866][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.35.31:893][725]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.08.25-21.35.31:963][725]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level0011DF737684E5D9933DEFA9CAD42947F79.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.35.31:998][725]LogFileHelpers: Saving map 'Level001' took 0.132
+[2020.08.25-21.35.31:998][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.35.32:046][725]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltData050458BF485EEDD7A170BF969B7A1471.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.35.32:066][725]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.35.32:066][725]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.35.32:066][725]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.35.41:876][898]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2020.08.25-21.35.44:951][246]Cmd: DUPLICATE
+[2020.08.25-21.35.44:951][246]Cmd: ACTOR DUPLICATE
+[2020.08.25-21.35.53:611][219]Cmd: TRANSACTION UNDO
+[2020.08.25-21.35.53:611][219]LogEditorTransaction: Undo Move Actors
+[2020.08.25-21.35.54:065][232]Cmd: TRANSACTION UNDO
+[2020.08.25-21.35.54:065][232]LogEditorTransaction: Undo Move Actors
+[2020.08.25-21.35.56:980][557]LogEditorViewport: Clicking on Actor (LMB): LockableDoor_C (LockableDoor4)
+[2020.08.25-21.35.58:925][771]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2020.08.25-21.35.58:948][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.35.58:977][771]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.08.25-21.35.59:035][771]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level00117F7660D4F365BDDEC8A06A71BF1883A.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.35.59:089][771]LogFileHelpers: Saving map 'Level001' took 0.141
+[2020.08.25-21.35.59:089][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.35.59:146][771]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltDataE47C470043A0C75C0B61C8A9756C37D4.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.35.59:167][771]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.35.59:167][771]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.35.59:167][771]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.36.21:213][319]LogUObjectHash: Compacting FUObjectHashTables data took   5.62ms
+[2020.08.25-21.36.21:231][319]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.36.21:258][319]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.08.25-21.36.21:316][319]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level00163BF09CC4A8170CC7A117392BCCE50A6.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.36.21:358][319]LogFileHelpers: Saving map 'Level001' took 0.127
+[2020.08.25-21.36.21:358][319]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.36.21:415][319]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltData6C486DA64CA4B587C567728F00FB684C.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.36.21:428][319]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/LockableDoor" FILE="D:/Document/Unreal Projects/PW5/Content/BluePrints/LockableDoor.uasset" SILENT=true
+[2020.08.25-21.36.21:495][319]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/LockableDoor630008C74A5AEAD58C513FB8347D2F0E.tmp' to 'D:/Document/Unreal Projects/PW5/Content/BluePrints/LockableDoor.uasset'
+[2020.08.25-21.36.21:530][319]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.36.21:530][319]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.36.21:530][319]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.36.21:530][319]LogContentValidation: Display: Validating Blueprint /Game/BluePrints/LockableDoor.LockableDoor
+[2020.08.25-21.36.25:261][753]BlueprintLog: New page: Compile LockableDoor
+[2020.08.25-21.36.25:335][753]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2020.08.25-21.36.26:442][860]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2020.08.25-21.36.26:465][860]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.36.26:497][860]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.08.25-21.36.26:559][860]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level00125D66DC84FD5EE41559BF394F83CD76E.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.36.26:601][860]LogFileHelpers: Saving map 'Level001' took 0.136
+[2020.08.25-21.36.26:601][860]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.36.26:657][860]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltDataB8AF3B164A784CF8BF4B4D93E9D4CB06.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.36.26:684][860]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.36.26:684][860]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.36.26:685][860]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.36.28:799][101]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2020.08.25-21.36.35:093][806]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube25)
+[2020.08.25-21.36.41:183][493]LogEditorViewport: Clicking Background
+[2020.08.25-21.36.41:856][570]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.08.25-21.36.41:881][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.36.41:910][570]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.08.25-21.36.41:982][570]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level0013A31A952477F99E5E5CA55BDC7748C41.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.36.42:024][570]LogFileHelpers: Saving map 'Level001' took 0.144
+[2020.08.25-21.36.42:024][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.36.42:075][570]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltData7D225DB145FC2C3C018AFCA2E685C020.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.36.42:098][570]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.36.42:098][570]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.36.42:098][570]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.36.57:850][421]LogEditorViewport: Clicking on Actor (LMB): staircase_C (staircase2)
+[2020.08.25-21.36.58:756][521]LogEditorViewport: Clicking Background
+[2020.08.25-21.37.07:091][504]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube7)
+[2020.08.25-21.37.11:209][900]LogEditorViewport: Clicking Background
+[2020.08.25-21.37.12:498][ 52]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube10)
+[2020.08.25-21.37.20:449][849]LogEditorViewport: Clicking Background
+[2020.08.25-21.37.24:689][336]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.08.25-21.37.24:714][336]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.37.24:744][336]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.08.25-21.37.24:800][336]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001995A5CC4444E61A4B108E491CC79226F.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.37.24:841][336]LogFileHelpers: Saving map 'Level001' took 0.128
+[2020.08.25-21.37.24:841][336]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.37.24:901][336]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltData0FE45C8D47BF358AF8024D936C17EC7B.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.37.24:922][336]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.37.24:922][336]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.37.24:922][336]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.37.38:009][869]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (closet2)
+[2020.08.25-21.37.47:015][886]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (closet3)
+[2020.08.25-21.37.53:449][609]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (closet2)
+[2020.08.25-21.38.09:462][409]LogEditorViewport: Clicking on Actor (LMB): Sof_C (Sof)
+[2020.08.25-21.38.20:264][651]LogEditorViewport: Clicking Background
+[2020.08.25-21.38.20:775][708]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2020.08.25-21.38.20:797][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.38.20:830][708]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2020.08.25-21.38.20:902][708]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level00108EA41744007906DA62B338B553EAD82.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.38.20:940][708]LogFileHelpers: Saving map 'Level001' took 0.143
+[2020.08.25-21.38.20:940][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.38.20:999][708]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltDataF0F975024FF99AD19BED85A0E425288A.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.38.21:017][708]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.38.21:017][708]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.38.21:017][708]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.38.23:677][ 25]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (closet2)
+[2020.08.25-21.40.05:211][647]LogEditorViewport: Clicking on Actor (context menu): staircase_C (staircase3)
+[2020.08.25-21.40.06:542][769]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2020.08.25-21.40.07:203][839]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube10)
+[2020.08.25-21.40.13:991][614]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube10)
+[2020.08.25-21.40.14:850][707]Cmd: DUPLICATE
+[2020.08.25-21.40.14:850][707]Cmd: ACTOR DUPLICATE
+[2020.08.25-21.40.25:721][917]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.08.25-21.40.29:183][308]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube10)
+[2020.08.25-21.40.34:583][920]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube20)
+[2020.08.25-21.40.35:618][ 34]Cmd: DUPLICATE
+[2020.08.25-21.40.35:618][ 34]Cmd: ACTOR DUPLICATE
+[2020.08.25-21.40.40:530][581]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.08.25-21.40.41:652][702]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2020.08.25-21.40.41:680][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.40.41:719][702]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.08.25-21.40.41:785][702]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level0015312E9874DBF2BA52B41B1A0ECC1EA52.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.40.41:821][702]LogFileHelpers: Saving map 'Level001' took 0.141
+[2020.08.25-21.40.41:821][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.40.41:876][702]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltDataF9F4B0C944FF9ECEB42A288245BEC2E6.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.40.41:898][702]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.40.41:898][702]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.40.41:898][702]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.40.46:525][229]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube23)
+[2020.08.25-21.40.49:621][564]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.08.25-21.40.49:647][564]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.40.49:675][564]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.08.25-21.40.49:728][564]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001BFA1A7E040F1E1951B5899BC8A66C2E8.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.40.49:768][564]LogFileHelpers: Saving map 'Level001' took 0.121
+[2020.08.25-21.40.49:768][564]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.40.49:825][564]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltData7E55EE874F89ABC4681A6C8EB2E67358.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.40.49:846][564]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.40.49:846][564]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.40.49:846][564]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.40.53:005][921]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube17)
+[2020.08.25-21.41.05:673][346]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube16)
+[2020.08.25-21.41.07:909][595]Cmd: DELETE
+[2020.08.25-21.41.07:909][595]Cmd: ACTOR DELETE
+[2020.08.25-21.41.07:911][595]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.08.25-21.41.07:942][595]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.08.25-21.41.07:943][595]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2020.08.25-21.41.09:301][758]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube18)
+[2020.08.25-21.41.11:369][989]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube19)
+[2020.08.25-21.41.39:389][154]LogEditorViewport: Clicking Background
+[2020.08.25-21.41.40:302][259]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.08.25-21.41.40:329][259]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.41.40:358][259]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.08.25-21.41.40:421][259]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level0015977977F41F8C45F5E72589F6C88A663.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.41.40:456][259]LogFileHelpers: Saving map 'Level001' took 0.127
+[2020.08.25-21.41.40:456][259]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.41.40:513][259]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltDataE316562E4672CFC58508D39DF340F15E.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.41.40:535][259]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.41.40:535][259]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.41.40:535][259]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.41.40:998][313]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube19)
+[2020.08.25-21.41.42:961][533]LogEditorViewport: Clicking Background
+[2020.08.25-21.41.43:606][610]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (chandelier2)
+[2020.08.25-21.41.48:067][109]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (round_table)
+[2020.08.25-21.41.54:085][790]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (chair_chair2)
+[2020.08.25-21.41.56:416][ 50]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (chair_chair)
+[2020.08.25-21.42.00:154][475]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (chandelier2)
+[2020.08.25-21.42.06:881][237]LogEditorViewport: Clicking Background
+[2020.08.25-21.42.07:418][297]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2020.08.25-21.42.07:447][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.42.07:475][297]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.08.25-21.42.07:535][297]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001059C2AD348BD6520904D7F840A3E363B.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.42.07:578][297]LogFileHelpers: Saving map 'Level001' took 0.132
+[2020.08.25-21.42.07:578][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.42.07:630][297]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltData0D1BAB784E9B55ABF3CE0AB6736B2B91.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.42.07:651][297]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.42.07:651][297]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.42.07:651][297]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.42.08:110][351]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (chandelier2)
+[2020.08.25-21.42.11:215][702]LogEditorViewport: Clicking Background
+[2020.08.25-21.42.11:647][750]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.08.25-21.42.11:680][750]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.42.11:709][750]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.08.25-21.42.11:767][750]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level00101A80827406B18B89CD4178BA9627DD9.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.42.11:807][750]LogFileHelpers: Saving map 'Level001' took 0.127
+[2020.08.25-21.42.11:807][750]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.42.11:870][750]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltData86C9530C4D65212E9C93F28CAB8C3B7A.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.42.11:893][750]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.42.11:893][750]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.42.11:893][750]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.42.21:461][893]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube15)
+[2020.08.25-21.42.22:316][986]Cmd: DELETE
+[2020.08.25-21.42.22:316][986]Cmd: ACTOR DELETE
+[2020.08.25-21.42.22:318][986]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.08.25-21.42.22:349][986]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.08.25-21.42.22:350][986]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2020.08.25-21.42.22:928][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.08.25-21.42.22:946][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.42.22:979][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.08.25-21.42.23:039][ 52]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level0017368C79B494D9CA8C8E94391C5F05A69.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.42.23:078][ 52]LogFileHelpers: Saving map 'Level001' took 0.132
+[2020.08.25-21.42.23:078][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.42.23:138][ 52]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltData9121428A465D69622C531FAF488E1F61.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.42.23:165][ 52]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.42.23:165][ 52]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.42.23:165][ 52]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.42.33:321][266]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube19)
+[2020.08.25-21.42.37:755][761]LogEditorViewport: Clicking Background
+[2020.08.25-21.42.39:634][982]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2020.08.25-21.42.39:664][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.42.39:692][982]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.08.25-21.42.39:748][982]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001396E1F454D4F20E1ABDA0380E3367D3E.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.42.39:795][982]LogFileHelpers: Saving map 'Level001' took 0.132
+[2020.08.25-21.42.39:795][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.42.39:850][982]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltDataC5E666DB48AD3B68586E97804E314852.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.42.39:881][982]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.42.39:881][982]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.42.39:881][982]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.42.40:325][ 33]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube18)
+[2020.08.25-21.42.46:162][672]LogPhysics: Warning: Scale for /Game/Levels/Level001.Level001:PersistentLevel.Cube18.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.08.25-21.42.46:162][672]LogPhysics: Warning: Scale for /Game/Levels/Level001.Level001:PersistentLevel.Cube18.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.08.25-21.42.48:192][897]LogEditorViewport: Clicking Background
+[2020.08.25-21.42.48:622][948]Cmd: TRANSACTION UNDO
+[2020.08.25-21.42.48:622][948]LogEditorTransaction: Undo Clicking Background
+[2020.08.25-21.42.48:996][958]Cmd: TRANSACTION UNDO
+[2020.08.25-21.42.48:996][958]LogEditorTransaction: Undo Set Scale
+[2020.08.25-21.42.49:508][  8]LogEditorViewport: Clicking Background
+[2020.08.25-21.42.49:963][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.08.25-21.43.03:334][659]LogEditorViewport: Clicking on Actor (LMB): staircase_C (staircase2)
+[2020.08.25-21.43.04:256][760]LogEditorViewport: Clicking Background
+[2020.08.25-21.43.16:040][167]LogEditorViewport: Clicking on Actor (LMB): staircase_C (staircase)
+[2020.08.25-21.43.16:934][268]Cmd: DELETE
+[2020.08.25-21.43.16:934][268]Cmd: ACTOR DELETE
+[2020.08.25-21.43.16:935][268]LogEditorActor: Deleted Actor: staircase_C
+[2020.08.25-21.43.16:972][268]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2020.08.25-21.43.16:974][268]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2020.08.25-21.43.17:939][380]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2020.08.25-21.43.17:964][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.43.17:992][380]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.08.25-21.43.18:059][380]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level00196A248324DD794617732FC9A8D7C6BA7.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.43.18:098][380]LogFileHelpers: Saving map 'Level001' took 0.135
+[2020.08.25-21.43.18:098][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.43.18:148][380]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltData166EAC3D4058C56AACEE25A69A4406D6.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.43.18:172][380]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.43.18:172][380]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.43.18:172][380]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.43.22:330][875]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube11)
+[2020.08.25-21.43.32:066][962]LogEditorViewport: Clicking Background
+[2020.08.25-21.43.32:630][ 29]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube9)
+[2020.08.25-21.43.39:980][851]LogEditorViewport: Clicking Background
+[2020.08.25-21.43.40:695][936]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube9)
+[2020.08.25-21.44.02:724][424]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2020.08.25-21.44.17:744][110]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2020.08.25-21.44.30:182][504]LogEditorViewport: Clicking Background
+[2020.08.25-21.44.30:809][575]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2020.08.25-21.44.30:829][575]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.44.30:861][575]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.08.25-21.44.30:924][575]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001EE3252FB4058EA73FE8753AF42FADE10.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.44.30:964][575]LogFileHelpers: Saving map 'Level001' took 0.135
+[2020.08.25-21.44.30:964][575]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.44.31:033][575]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltDataE307EF1B42B8EDDBA21EA8BB019AD460.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.44.31:050][575]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.44.31:050][575]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.44.31:050][575]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.44.32:625][762]LogEditorViewport: Clicking Background
+[2020.08.25-21.44.33:379][852]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube11)
+[2020.08.25-21.44.47:007][379]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2020.08.25-21.44.54:712][239]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube11)
+[2020.08.25-21.45.02:810][146]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2020.08.25-21.45.05:937][491]LogEditorViewport: Clicking Background
+[2020.08.25-21.45.06:921][602]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.08.25-21.45.06:945][602]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.45.06:980][602]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2020.08.25-21.45.07:041][602]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001BCFD11134BD75193483D19A3FC05F3C0.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.45.07:088][602]LogFileHelpers: Saving map 'Level001' took 0.143
+[2020.08.25-21.45.07:088][602]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.45.07:141][602]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltData4231A8304E549552B244E88ECDF3E569.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.45.07:161][602]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.45.07:161][602]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.45.07:161][602]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.45.08:497][760]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2020.08.25-21.45.42:470][597]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2020.08.25-21.45.49:794][428]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2020.08.25-21.45.54:940][991]LogEditorViewport: Clicking Background
+[2020.08.25-21.45.55:566][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.08.25-21.45.55:595][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.45.55:624][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.08.25-21.45.55:688][ 62]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level00161002F7B40D40E3F2D393BA19D413739.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.45.55:728][ 62]LogFileHelpers: Saving map 'Level001' took 0.134
+[2020.08.25-21.45.55:728][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.45.55:778][ 62]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltDataA018DE824BDDC2D9EA4FC08C1B31C0F4.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.45.55:801][ 62]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.45.55:801][ 62]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.45.55:801][ 62]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.45.57:758][295]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2020.08.25-21.46.00:102][557]LogEditorViewport: Clicking Background
+[2020.08.25-21.46.00:525][604]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.08.25-21.46.00:544][604]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.46.00:574][604]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.08.25-21.46.00:635][604]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001AD9831DA4321731ED02890BAFBC7EE90.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.46.00:675][604]LogFileHelpers: Saving map 'Level001' took 0.131
+[2020.08.25-21.46.00:675][604]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.46.00:730][604]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltData48EC75774B7A97187956C8A3D3A245E1.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.46.00:752][604]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.46.00:752][604]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.46.00:752][604]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.46.04:174][ 12]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2020.08.25-21.46.05:635][174]Cmd: DELETE
+[2020.08.25-21.46.05:635][174]Cmd: ACTOR DELETE
+[2020.08.25-21.46.05:637][174]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.08.25-21.46.05:666][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.08.25-21.46.05:667][174]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2020.08.25-21.46.08:422][503]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2020.08.25-21.46.10:171][695]Cmd: DUPLICATE
+[2020.08.25-21.46.10:171][695]Cmd: ACTOR DUPLICATE
+[2020.08.25-21.46.17:837][557]Cmd: DUPLICATE
+[2020.08.25-21.46.17:837][557]Cmd: ACTOR DUPLICATE
+[2020.08.25-21.46.20:528][858]LogEditorViewport: Clicking Background
+[2020.08.25-21.46.21:241][943]LogEditorViewport: Clicking on Actor (LMB): Letter_C (Letter)
+[2020.08.25-21.46.30:280][966]LogEditorViewport: Clicking Background
+[2020.08.25-21.46.30:823][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   5.44ms
+[2020.08.25-21.46.30:846][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.46.30:874][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.08.25-21.46.30:936][ 26]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001E80F3E7C4057652E5434ABA70F36F637.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.46.30:976][ 26]LogFileHelpers: Saving map 'Level001' took 0.131
+[2020.08.25-21.46.30:976][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.46.31:030][ 26]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltData8417474F45E30901C714B1B58CD83B3F.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.46.31:057][ 26]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.46.31:057][ 26]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.46.31:057][ 26]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.46.34:942][489]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2020.08.25-21.46.39:643][ 27]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.08.25-21.46.40:207][ 91]LogEditorViewport: Clicking Background
+[2020.08.25-21.46.40:848][163]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2020.08.25-21.46.40:879][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.46.40:908][163]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2020.08.25-21.46.40:977][163]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001E74D563340C4C89B32E2729D5F2CA07E.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.46.41:017][163]LogFileHelpers: Saving map 'Level001' took 0.138
+[2020.08.25-21.46.41:017][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.46.41:064][163]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltData69CB50A64C5A701E4D775DB325B1C0E8.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.46.41:093][163]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.46.41:093][163]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.46.41:093][163]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.46.54:664][787]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube19)
+[2020.08.25-21.46.57:277][ 83]Cmd: DUPLICATE
+[2020.08.25-21.46.57:277][ 83]Cmd: ACTOR DUPLICATE
+[2020.08.25-21.47.07:032][188]LogEditorViewport: Clicking Background
+[2020.08.25-21.47.09:562][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.47.09:594][488]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2020.08.25-21.47.09:658][488]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level0018EA8A70443384F99CC7427877D4B33BC.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.47.09:697][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.47.09:750][488]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltData48F1C29F4E1A1A6D51BE149C0D6B1EF1.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.47.09:778][488]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.47.09:778][488]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.47.09:778][488]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.47.14:094][  3]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (round_table)
+[2020.08.25-21.47.18:359][485]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2020.08.25-21.47.20:351][710]Cmd: DUPLICATE
+[2020.08.25-21.47.20:351][710]Cmd: ACTOR DUPLICATE
+[2020.08.25-21.47.49:566][ 10]LogEditorViewport: Clicking Background
+[2020.08.25-21.47.50:480][119]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube27)
+[2020.08.25-21.47.52:562][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.47.52:594][347]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2020.08.25-21.47.52:648][347]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level00164812BBC40F1BFD047F275AD43931212.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.47.52:684][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.47.52:731][347]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltData05439BBA47C1A6BEA6A38EAAD26B0F97.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.47.52:759][347]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.47.52:759][347]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.47.52:759][347]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.47.53:864][473]LogEditorViewport: Clicking Background
+[2020.08.25-21.48.05:789][901]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube27)
+[2020.08.25-21.48.13:065][713]LogEditorViewport: Clicking Background
+[2020.08.25-21.48.13:978][818]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2020.08.25-21.48.14:012][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.48.14:040][818]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2020.08.25-21.48.14:103][818]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001E5E7D17946BBF1E4522ADCB638BAEEB9.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.48.14:144][818]LogFileHelpers: Saving map 'Level001' took 0.133
+[2020.08.25-21.48.14:145][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.48.14:202][818]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltData880944554168B3927CBE9B9937717702.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.48.14:226][818]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.48.14:226][818]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.48.14:226][818]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.48.16:515][ 90]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube22)
+[2020.08.25-21.48.38:859][572]LogEditorViewport: Clicking Background
+[2020.08.25-21.48.39:299][620]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.08.25-21.48.39:328][620]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.48.39:356][620]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.08.25-21.48.39:418][620]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001030294B946A9647D5A60149C3C18A901.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.48.39:471][620]LogFileHelpers: Saving map 'Level001' took 0.144
+[2020.08.25-21.48.39:472][620]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.48.39:534][620]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltData63983DE54CC18DC5698BD8AF453481CD.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.48.39:556][620]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.48.39:556][620]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.48.39:556][620]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.48.43:784][125]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.08.25-21.48.45:257][288]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube12)
+[2020.08.25-21.48.46:628][442]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube13)
+[2020.08.25-21.48.48:111][607]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube)
+[2020.08.25-21.48.48:842][684]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube12)
+[2020.08.25-21.48.49:954][808]Cmd: DELETE
+[2020.08.25-21.48.49:954][808]Cmd: ACTOR DELETE
+[2020.08.25-21.48.49:956][808]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.08.25-21.48.49:957][808]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.08.25-21.48.49:957][808]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.08.25-21.48.49:990][808]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.08.25-21.48.49:991][808]LogEditorActor: Deleted 3 Actors (0.036 secs)
+[2020.08.25-21.48.50:803][902]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.08.25-21.48.50:829][902]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.48.50:860][902]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.08.25-21.48.50:917][902]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level0012A7EEAB64EF983F09C778DA03C3AC0E6.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.48.50:956][902]LogFileHelpers: Saving map 'Level001' took 0.127
+[2020.08.25-21.48.50:956][902]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.48.51:022][902]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltData64F9C2C74004332619772F8556955131.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.48.51:044][902]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.48.51:044][902]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.48.51:044][902]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.48.56:176][515]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube16)
+[2020.08.25-21.48.57:508][663]Cmd: DUPLICATE
+[2020.08.25-21.48.57:508][663]Cmd: ACTOR DUPLICATE
+[2020.08.25-21.49.02:586][236]Cmd: DUPLICATE
+[2020.08.25-21.49.02:586][236]Cmd: ACTOR DUPLICATE
+[2020.08.25-21.49.07:360][774]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.49.07:392][774]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2020.08.25-21.49.07:462][774]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001631C4FD44EB16ACEDBA710AAD11B6AAE.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.49.07:502][774]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.49.07:564][774]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltDataFB64928D46ECC20829980F811F69FDD5.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.49.07:581][774]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.49.07:581][774]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.49.07:581][774]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.49.08:022][823]LogEditorViewport: Clicking Background
+[2020.08.25-21.49.31:492][420]LogEditorViewport: Clicking Background
+[2020.08.25-21.49.33:035][600]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2020.08.25-21.49.37:523][126]LogTemp: Repeating last play command: Selected Viewport
+[2020.08.25-21.49.37:544][126]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.25-21.49.37:544][126]PIE: New page: PIE session: Level001 (2020/08/26 15:49:37)
+[2020.08.25-21.49.37:544][126]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level001
+[2020.08.25-21.49.37:551][126]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007283s)
+[2020.08.25-21.49.37:554][126]LogAIModule: Creating AISystem for world Level001
+[2020.08.25-21.49.37:554][126]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002EFC5439800), frame # 240126
+[2020.08.25-21.49.37:554][126]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002EFD9C10400), frame # 240126
+[2020.08.25-21.49.37:554][126]LogPlayLevel: PIE: World Init took: (0.002232s)
+[2020.08.25-21.49.37:554][126]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level001.Level001 to /Game/Levels/UEDPIE_0_Level001.Level001 (0.009839s)
+[2020.08.25-21.49.37:582][126]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2020.08.25-21.49.37:583][126]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.25-21.49.37:583][126]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.25-21.49.37:583][126]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.25-21.49.37:583][126]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.25-21.49.37:583][126]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.25-21.49.37:583][126]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.25-21.49.37:583][126]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.25-21.49.37:583][126]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.25-21.49.37:584][126]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.25-21.49.37:584][126]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.25-21.49.37:591][126]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.25-21.49.37:591][126]LogAudioMixer: Display: 1: FrontRight
+[2020.08.25-21.49.37:607][126]LogAudioMixer: Display: Using Audio Device ライン (Steinberg UR22)
+[2020.08.25-21.49.37:607][126]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.25-21.49.37:607][126]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.25-21.49.37:607][126]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.25-21.49.37:607][126]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.25-21.49.37:620][126]LogInit: FAudioDevice initialized.
+[2020.08.25-21.49.37:627][126]LogLoad: Game class is 'PW5GameMode_C'
+[2020.08.25-21.49.37:630][126]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level001.Level001 up for play (max tick rate 0) at 2020.08.26-06.49.37
+[2020.08.25-21.49.37:630][126]LogWorld: Bringing up level for play took: 0.002013
+[2020.08.25-21.49.37:630][126]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2020.08.25-21.49.37:634][126]PIE: Server logged in
+[2020.08.25-21.49.37:635][126]PIE: Play in editor total start time 0.092 seconds.
+[2020.08.25-21.49.39:345][327]LogBlueprintUserMessages: [staircase3] Can Use a Ladder
+[2020.08.25-21.49.39:628][361]LogBlueprintUserMessages: [staircase3] Can NOT Use a Ladder
+[2020.08.25-21.49.44:406][931]LogBlueprintUserMessages: [staircase2] Can Use a Ladder
+[2020.08.25-21.49.44:748][972]LogBlueprintUserMessages: [staircase2] Can NOT Use a Ladder
+[2020.08.25-21.49.47:010][242]LogBlueprintUserMessages: [staircase2] Can Use a Ladder
+[2020.08.25-21.49.47:319][279]LogBlueprintUserMessages: [staircase2] X=0.000 Y=-2450.000 Z=10.000
+[2020.08.25-21.49.47:812][338]LogBlueprintUserMessages: [staircase2] Can NOT Use a Ladder
+[2020.08.25-21.49.47:812][338]LogBlueprintUserMessages: [staircase2] Can Use a Ladder
+[2020.08.25-21.49.47:812][338]LogBlueprintUserMessages: [staircase2] X=0.000 Y=-2450.000 Z=10.000
+[2020.08.25-21.49.49:226][507]LogBlueprintUserMessages: [staircase2] Can NOT Use a Ladder
+[2020.08.25-21.49.51:911][827]LogBlueprintUserMessages: [staircase3] Can Use a Ladder
+[2020.08.25-21.49.51:911][827]LogBlueprintUserMessages: [staircase3] Can NOT Use a Ladder
+[2020.08.25-21.49.51:916][828]LogBlueprintUserMessages: [staircase3] Can Use a Ladder
+[2020.08.25-21.49.53:546][ 22]LogBlueprintUserMessages: [staircase3] Can NOT Use a Ladder
+[2020.08.25-21.49.54:708][157]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.25-21.49.54:709][157]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level001
+[2020.08.25-21.49.54:709][157]LogWorld: UWorld::CleanupWorld for Level001, bSessionEnded=true, bCleanupResources=true
+[2020.08.25-21.49.54:709][157]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.25-21.49.54:717][157]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.25-21.49.54:722][157]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.25-21.49.54:758][157]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.25-21.49.54:775][157]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002EFD9C10400), frame # 242157
+[2020.08.25-21.49.54:775][157]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002EFC5439800), frame # 242157
+[2020.08.25-21.49.54:778][157]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2020.08.25-21.49.54:828][158]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.08.25-21.49.55:610][248]LogEditorViewport: Clicking on Actor (LMB): staircase_C (staircase3)
+[2020.08.25-21.49.58:661][588]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2020.08.25-21.49.58:678][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.49.58:707][588]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2020.08.25-21.49.58:776][588]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001E32068434E49FDC397561890AF261C18.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.49.58:818][588]LogFileHelpers: Saving map 'Level001' took 0.141
+[2020.08.25-21.49.58:819][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.49.58:887][588]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltDataE0282A184928CF2CB69FE6BBFE8946E1.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.49.58:908][588]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.49.58:909][588]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.49.58:909][588]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.50.00:491][764]LogTemp: Repeating last play command: Selected Viewport
+[2020.08.25-21.50.00:511][764]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.25-21.50.00:511][764]PIE: New page: PIE session: Level001 (2020/08/26 15:50:00)
+[2020.08.25-21.50.00:547][764]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level001
+[2020.08.25-21.50.00:552][764]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004313s)
+[2020.08.25-21.50.00:552][764]LogAIModule: Creating AISystem for world Level001
+[2020.08.25-21.50.00:552][764]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002EFB7EDF400), frame # 242764
+[2020.08.25-21.50.00:552][764]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002EFB78C9800), frame # 242764
+[2020.08.25-21.50.00:552][764]LogPlayLevel: PIE: World Init took: (0.001204s)
+[2020.08.25-21.50.00:552][764]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level001.Level001 to /Game/Levels/UEDPIE_0_Level001.Level001 (0.005644s)
+[2020.08.25-21.50.00:586][764]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2020.08.25-21.50.00:588][764]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.25-21.50.00:588][764]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.25-21.50.00:588][764]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.25-21.50.00:588][764]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.25-21.50.00:588][764]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.25-21.50.00:588][764]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.25-21.50.00:588][764]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.25-21.50.00:588][764]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.25-21.50.00:589][764]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.25-21.50.00:589][764]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.25-21.50.00:596][764]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.25-21.50.00:596][764]LogAudioMixer: Display: 1: FrontRight
+[2020.08.25-21.50.00:611][764]LogAudioMixer: Display: Using Audio Device ライン (Steinberg UR22)
+[2020.08.25-21.50.00:611][764]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.25-21.50.00:611][764]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.25-21.50.00:611][764]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.25-21.50.00:611][764]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.25-21.50.00:623][764]LogInit: FAudioDevice initialized.
+[2020.08.25-21.50.00:635][764]LogLoad: Game class is 'PW5GameMode_C'
+[2020.08.25-21.50.00:638][764]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level001.Level001 up for play (max tick rate 0) at 2020.08.26-06.50.00
+[2020.08.25-21.50.00:638][764]LogWorld: Bringing up level for play took: 0.002606
+[2020.08.25-21.50.00:638][764]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2020.08.25-21.50.00:642][764]PIE: Server logged in
+[2020.08.25-21.50.00:643][764]PIE: Play in editor total start time 0.134 seconds.
+[2020.08.25-21.50.02:211][942]LogBlueprintUserMessages: [staircase3] Can Use a Ladder
+[2020.08.25-21.50.03:225][ 59]LogBlueprintUserMessages: [staircase3] Can NOT Use a Ladder
+[2020.08.25-21.50.07:147][515]LogBlueprintUserMessages: [staircase2] Can Use a Ladder
+[2020.08.25-21.50.08:065][620]LogBlueprintUserMessages: [staircase2] X=0.000 Y=-2450.000 Z=10.000
+[2020.08.25-21.50.08:563][677]LogBlueprintUserMessages: [staircase2] Can NOT Use a Ladder
+[2020.08.25-21.50.08:563][677]LogBlueprintUserMessages: [staircase2] Can Use a Ladder
+[2020.08.25-21.50.08:563][677]LogBlueprintUserMessages: [staircase2] X=0.000 Y=-2450.000 Z=10.000
+[2020.08.25-21.50.09:569][792]LogBlueprintUserMessages: [staircase2] Can NOT Use a Ladder
+[2020.08.25-21.50.14:413][352]LogBlueprintUserMessages: [staircase3] Can Use a Ladder
+[2020.08.25-21.50.14:766][394]LogBlueprintUserMessages: [staircase3] Can NOT Use a Ladder
+[2020.08.25-21.50.17:475][707]LogBlueprintUserMessages: [staircase3] Can Use a Ladder
+[2020.08.25-21.50.19:746][971]LogBlueprintUserMessages: [staircase3] Can NOT Use a Ladder
+[2020.08.25-21.50.20:786][ 93]LogBlueprintUserMessages: [staircase3] Can Use a Ladder
+[2020.08.25-21.50.21:717][200]LogBlueprintUserMessages: [staircase3] Can NOT Use a Ladder
+[2020.08.25-21.50.25:111][589]LogBlueprintUserMessages: [staircase3] Can Use a Ladder
+[2020.08.25-21.50.25:464][630]LogBlueprintUserMessages: [staircase3] Can NOT Use a Ladder
+[2020.08.25-21.50.28:109][937]LogBlueprintUserMessages: [staircase2] Can Use a Ladder
+[2020.08.25-21.50.31:179][287]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.25-21.50.31:179][287]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level001
+[2020.08.25-21.50.31:179][287]LogWorld: UWorld::CleanupWorld for Level001, bSessionEnded=true, bCleanupResources=true
+[2020.08.25-21.50.31:180][287]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.25-21.50.31:194][287]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.25-21.50.31:200][287]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.25-21.50.31:232][287]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.25-21.50.31:248][287]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002EFB78C9800), frame # 246287
+[2020.08.25-21.50.31:249][287]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002EFB7EDF400), frame # 246287
+[2020.08.25-21.50.31:251][287]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2020.08.25-21.50.31:300][288]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2020.08.25-21.50.35:143][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.25-21.50.35:178][740]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2020.08.25-21.50.35:233][740]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level0013C4A062B422E394632B84A84E819BA57.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.08.25-21.50.35:282][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.08.25-21.50.35:346][740]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltData51DE9F5C469B4FB6CC0F2B8B90B1EDEA.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.08.25-21.50.35:389][740]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.25-21.50.35:389][740]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.08.25-21.50.35:389][740]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.08.25-21.56.14:874][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/staircase" FILE="D:/Document/Unreal Projects/PW5/Content/BluePrints/staircase.uasset" SILENT=true
+[2020.08.25-21.56.14:917][ 26]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.08.25-21.56.15:770][ 26]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.853 s
+[2020.08.25-21.56.15:770][ 26]LogOutputDevice: Error: === Handled ensure: ===
+[2020.08.25-21.56.15:770][ 26]LogOutputDevice: Error: 
+[2020.08.25-21.56.15:770][ 26]LogOutputDevice: Error: Ensure condition failed: !SeenPaths.Contains(NewPath) [File:D:/Build/++UE4+Licensee/Sync/Engine/Source/Runtime/CoreUObject/Private/Misc/RedirectCollector.cpp] [Line: 222]
+[2020.08.25-21.56.15:770][ 26]LogOutputDevice: Error: Found circular redirect from /Game/BluePrints/staircase.staircase to /Game/BluePrints/Staircase.Staircase! Returning None instead
+[2020.08.25-21.56.15:770][ 26]LogOutputDevice: Error: Stack: 
+[2020.08.25-21.56.15:770][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa79c5c3f3 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.08.25-21.56.15:770][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa7984b7d0 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.08.25-21.56.15:770][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa79b82b06 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.08.25-21.56.15:771][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa79b9b2de UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.08.25-21.56.15:771][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa7987f727 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.08.25-21.56.15:771][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa78d77522 UE4Editor-Core.dll!UnknownFunction []
+[2020.08.25-21.56.15:771][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa79b92e33 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.08.25-21.56.15:771][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa79a801c9 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.08.25-21.56.15:771][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa799e9516 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.08.25-21.56.15:771][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa79b418c7 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.08.25-21.56.15:771][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa79b41e22 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.08.25-21.56.15:771][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa799ebbd5 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.08.25-21.56.15:771][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa799e9b1c UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.08.25-21.56.15:771][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa799e962e UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.08.25-21.56.15:771][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa79b418c7 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.08.25-21.56.15:771][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa79acc525 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.08.25-21.56.15:771][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa79b41e22 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.08.25-21.56.15:771][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa799ebbd5 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.08.25-21.56.15:771][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa799e9b1c UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.08.25-21.56.15:771][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa79acc8b4 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.08.25-21.56.15:771][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa79acaeea UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.08.25-21.56.15:771][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa79aca9fb UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.08.25-21.56.15:771][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa75e97f70 UE4Editor-Engine.dll!UnknownFunction []
+[2020.08.25-21.56.15:771][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa75e97a78 UE4Editor-Engine.dll!UnknownFunction []
+[2020.08.25-21.56.15:771][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa79b20bb2 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.08.25-21.56.15:771][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa79b47eac UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.08.25-21.56.15:771][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa79b29f09 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.08.25-21.56.15:771][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa6cdd4127 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.08.25-21.56.15:771][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa6cdd4bac UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.08.25-21.56.15:771][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa6ce11fe2 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.08.25-21.56.15:771][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa6ce0e8fe UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.08.25-21.56.15:771][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa6d648597 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.08.25-21.56.15:771][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa6d17aad0 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.08.25-21.56.15:771][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa6d1793b5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.08.25-21.56.15:772][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa6d18e3c0 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.08.25-21.56.15:772][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa5a7587b7 UE4Editor-AssetTools.dll!UnknownFunction []
+[2020.08.25-21.56.15:772][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa5a704816 UE4Editor-AssetTools.dll!UnknownFunction []
+[2020.08.25-21.56.15:772][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa5a771592 UE4Editor-AssetTools.dll!UnknownFunction []
+[2020.08.25-21.56.15:772][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa621387ed UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.08.25-21.56.15:772][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa621a66e2 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.08.25-21.56.15:772][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa621f3cda UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.08.25-21.56.15:772][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa6210e1fb UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.08.25-21.56.15:772][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa620efacf UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.08.25-21.56.15:772][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa7553df42 UE4Editor-Slate.dll!UnknownFunction []
+[2020.08.25-21.56.15:772][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa755276cf UE4Editor-Slate.dll!UnknownFunction []
+[2020.08.25-21.56.15:772][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa75421f8f UE4Editor-Slate.dll!UnknownFunction []
+[2020.08.25-21.56.15:772][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa7552dbe6 UE4Editor-Slate.dll!UnknownFunction []
+[2020.08.25-21.56.15:772][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa7552eff8 UE4Editor-Slate.dll!UnknownFunction []
+[2020.08.25-21.56.15:772][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa754399e4 UE4Editor-Slate.dll!UnknownFunction []
+[2020.08.25-21.56.15:772][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa7528061b UE4Editor-Slate.dll!UnknownFunction []
+[2020.08.25-21.56.15:772][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa752ed561 UE4Editor-Slate.dll!UnknownFunction []
+[2020.08.25-21.56.15:772][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffa752e0f16 UE4Editor-Slate.dll!UnknownFunction []
+[2020.08.25-21.56.15:772][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffaa1727c25 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.08.25-21.56.15:772][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffaa1715c87 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.08.25-21.56.15:772][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffaa172a609 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.08.25-21.56.15:772][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffaa17117d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.08.25-21.56.15:772][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffac4885c7d USER32.dll!UnknownFunction []
+[2020.08.25-21.56.15:772][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffac4885672 USER32.dll!UnknownFunction []
+[2020.08.25-21.56.15:772][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffaa172bb24 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.08.25-21.56.15:772][ 26]LogOutputDevice: Error: [Callstack] 0x00007ff7417868c4 UE4Editor.exe!UnknownFunction []
+[2020.08.25-21.56.15:772][ 26]LogOutputDevice: Error: [Callstack] 0x00007ff74179ba7c UE4Editor.exe!UnknownFunction []
+[2020.08.25-21.56.15:772][ 26]LogOutputDevice: Error: [Callstack] 0x00007ff74179bb5a UE4Editor.exe!UnknownFunction []
+[2020.08.25-21.56.15:773][ 26]LogOutputDevice: Error: [Callstack] 0x00007ff7417ae31d UE4Editor.exe!UnknownFunction []
+[2020.08.25-21.56.15:773][ 26]LogOutputDevice: Error: [Callstack] 0x00007ff7417b145a UE4Editor.exe!UnknownFunction []
+[2020.08.25-21.56.15:773][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffac2e47bd4 KERNEL32.DLL!UnknownFunction []
+[2020.08.25-21.56.15:773][ 26]LogOutputDevice: Error: [Callstack] 0x00007ffac4b6ce51 ntdll.dll!UnknownFunction []
+[2020.08.25-21.56.15:773][ 26]LogOutputDevice: Error: 
