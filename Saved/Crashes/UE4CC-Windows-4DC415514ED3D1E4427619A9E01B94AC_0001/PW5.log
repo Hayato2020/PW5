@@ -1,0 +1,2071 @@
+﻿Log file open, 09/04/20 12:38:32
+LogInit: Display: Running engine for game: PW5
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.853029
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin HoudiniEngine
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: F:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.09.04-03.38.33:534][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.09.04-03.38.33:534][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.09.04-03.38.33:534][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Engine.ini]
+[2020.09.04-03.38.33:534][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.09.04-03.38.33:534][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Engine.ini]
+[2020.09.04-03.38.33:534][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Engine.ini]
+[2020.09.04-03.38.33:534][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.09.04-03.38.33:534][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.09.04-03.38.33:534][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.09.04-03.38.33:534][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.09.04-03.38.33:534][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.09.04-03.38.33:534][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.09.04-03.38.33:534][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.09.04-03.38.33:534][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.09.04-03.38.33:534][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.09.04-03.38.33:534][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.09.04-03.38.33:534][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.09.04-03.38.33:534][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.09.04-03.38.33:535][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.09.04-03.38.33:535][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.09.04-03.38.33:535][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Engine.ini]
+[2020.09.04-03.38.33:535][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.09.04-03.38.33:535][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.09.04-03.38.33:535][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.09.04-03.38.33:535][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.09.04-03.38.33:535][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.09.04-03.38.33:535][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.09.04-03.38.33:535][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.09.04-03.38.33:535][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.09.04-03.38.33:535][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.09.04-03.38.33:535][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.09.04-03.38.33:535][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.09.04-03.38.33:535][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.09.04-03.38.33:535][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.09.04-03.38.33:535][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Engine.ini]
+[2020.09.04-03.38.33:535][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Engine.ini]
+[2020.09.04-03.38.33:548][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Scalability.ini]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Scalability.ini]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Scalability.ini]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Scalability.ini]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Scalability.ini]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.04-03.38.33:549][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Scalability.ini]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Scalability.ini]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Scalability.ini]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.04-03.38.33:550][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.04-03.38.33:551][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.04-03.38.33:551][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.09.04-03.38.33:552][  0]LogHAL: Display: Platform has ~ 24 GB [25712603136 / 34359738368 / 24], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.09.04-03.38.33:552][  0]LogInit: Going up to parent DeviceProfile []
+[2020.09.04-03.38.33:553][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Scalability.ini]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.04-03.38.33:553][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Scalability.ini]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.04-03.38.33:553][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Scalability.ini]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.04-03.38.33:553][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Scalability.ini]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.04-03.38.33:553][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Scalability.ini]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Scalability.ini]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Scalability.ini]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.04-03.38.33:554][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Scalability.ini]
+[2020.09.04-03.38.33:555][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.04-03.38.33:555][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.04-03.38.33:555][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.04-03.38.33:555][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.04-03.38.33:555][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.04-03.38.33:555][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.04-03.38.33:555][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.04-03.38.33:555][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.09.04-03.38.33:563][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.09.04-03.38.33:563][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.09.04-03.38.33:563][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.09.04-03.38.33:563][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Document/Unreal Projects/PW5/Saved/Config/Windows/Engine.ini]
+[2020.09.04-03.38.33:564][  0]LogInit: Computer: KAMATA
+[2020.09.04-03.38.33:564][  0]LogInit: User: User01
+[2020.09.04-03.38.33:564][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.09.04-03.38.33:564][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.09.04-03.38.33:564][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
+[2020.09.04-03.38.33:564][  0]LogMemory: Platform Memory Stats for Windows
+[2020.09.04-03.38.33:564][  0]LogMemory: Process Physical Memory: 114.98 MB used, 114.98 MB peak
+[2020.09.04-03.38.33:564][  0]LogMemory: Process Virtual Memory: 110.05 MB used, 110.05 MB peak
+[2020.09.04-03.38.33:564][  0]LogMemory: Physical Memory: 8450.69 MB used,  16070.76 MB free, 24521.45 MB total
+[2020.09.04-03.38.33:564][  0]LogMemory: Virtual Memory: 5157.42 MB used,  134212568.00 MB free, 134217728.00 MB total
+[2020.09.04-03.38.33:572][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.09.04-03.38.33:955][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.09.04-03.38.33:957][  0]LogInit: Overriding language with editor language configuration option (en).
+[2020.09.04-03.38.33:957][  0]LogInit: Overriding locale with editor culture configuration option ().
+[2020.09.04-03.38.33:957][  0]LogInit: Using OS detected locale (ja-JP).
+[2020.09.04-03.38.34:335][  0]LogInit: Setting process to per monitor DPI aware
+[2020.09.04-03.38.34:445][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.09.04-03.38.34:445][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.09.04-03.38.37:179][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.04-03.38.37:179][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.09.04-03.38.37:179][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.09.04-03.38.37:179][  0]LogD3D11RHI: D3D11 adapters:
+[2020.09.04-03.38.37:268][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2020.09.04-03.38.37:268][  0]LogD3D11RHI:       6052/0/12260 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.09.04-03.38.37:271][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.09.04-03.38.37:271][  0]LogD3D11RHI:       0/0/12260 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.09.04-03.38.37:271][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.09.04-03.38.37:279][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.09.04-03.38.37:279][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2020.09.04-03.38.37:279][  0]LogWindows: EnumDisplayDevices:
+[2020.09.04-03.38.37:279][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2020.09.04-03.38.37:279][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.09.04-03.38.37:279][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2020.09.04-03.38.37:280][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.09.04-03.38.37:280][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.09.04-03.38.37:280][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2020.09.04-03.38.37:280][  0]LogD3D11RHI:   Driver Version: 452.06 (internal:27.21.14.5206, unified:452.06)
+[2020.09.04-03.38.37:280][  0]LogD3D11RHI:      Driver Date: 8-12-2020
+[2020.09.04-03.38.37:280][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2020.09.04-03.38.37:322][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.09.04-03.38.37:328][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.09.04-03.38.37:328][  0]LogD3D11RHI: Async texture creation enabled
+[2020.09.04-03.38.37:328][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.09.04-03.38.37:362][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.09.04-03.38.38:023][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.09.04-03.38.38:065][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.09.04-03.38.38:065][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.09.04-03.38.38:065][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.09.04-03.38.38:065][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.09.04-03.38.38:065][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.09.04-03.38.38:065][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.09.04-03.38.38:065][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.09.04-03.38.38:065][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.09.04-03.38.38:065][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.09.04-03.38.38:065][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.09.04-03.38.38:156][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.09.04-03.38.38:156][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.09.04-03.38.38:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.09.04-03.38.38:218][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.09.04-03.38.38:245][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.09.04-03.38.38:272][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.09.04-03.38.38:301][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.09.04-03.38.38:328][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.09.04-03.38.38:353][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.09.04-03.38.38:400][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.09.04-03.38.38:400][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.09.04-03.38.38:430][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.09.04-03.38.38:430][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.09.04-03.38.38:455][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.09.04-03.38.38:483][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.09.04-03.38.38:508][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.09.04-03.38.38:531][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.09.04-03.38.38:532][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.09.04-03.38.38:614][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.09.04-03.38.39:055][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (D:/Document/Unreal Projects/PW5/Intermediate/Shaders/WorkingDirectory/15420/).
+[2020.09.04-03.38.39:055][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User01/AppData/Local/Temp/UnrealShaderWorkingDir/04045795454A0C9A11085C96E187419C/'.
+[2020.09.04-03.38.39:056][  0]LogXGEController: Cleaning working directory: C:/Users/User01/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.09.04-03.38.39:056][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.09.04-03.38.39:056][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.09.04-03.38.39:056][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.09.04-03.38.42:233][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.09.04-03.38.42:435][  0]LogDerivedDataCache: Loaded boot cache 0.20s 76MB C:/Users/User01/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.04-03.38.42:435][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/User01/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.09.04-03.38.42:435][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Document/Unreal Projects/PW5/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.09.04-03.38.42:435][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.09.04-03.38.42:435][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Document/Unreal Projects/PW5/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.04-03.38.42:435][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.09.04-03.38.42:454][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.09.04-03.38.42:455][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.04-03.38.42:455][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.09.04-03.38.42:457][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User01/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.09.04-03.38.42:457][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.09.04-03.38.42:457][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.09.04-03.38.42:515][  0]LogSlate: Using FreeType 2.10.0
+[2020.09.04-03.38.42:529][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.09.04-03.38.42:608][  0]LogAssetRegistry: FAssetRegistry took 0.0048 seconds to start up
+[2020.09.04-03.38.42:940][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.04-03.38.43:417][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.09.04-03.38.43:417][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.09.04-03.38.43:417][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.09.04-03.38.43:417][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.09.04-03.38.43:417][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.09.04-03.38.43:518][  0]LogNetVersion: PW5 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 377290373)
+[2020.09.04-03.38.45:150][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001C4D3D0E700), frame # 0
+[2020.09.04-03.38.45:150][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C4D3CE0540), frame # 0
+[2020.09.04-03.38.45:155][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C4D3E0E800), frame # 0
+[2020.09.04-03.38.45:301][  0]LogPackageLocalizationCache: Processed 20 localized package path(s) for 1 prioritized culture(s) in 0.109828 seconds
+[2020.09.04-03.38.45:307][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.09.04-03.38.45:307][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.09.04-03.38.45:307][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.09.04-03.38.47:267][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.09.04-03.38.47:289][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.09.04-03.38.47:688][  0]SourceControl: Source control is disabled
+[2020.09.04-03.38.47:688][  0]SourceControl: Source control is disabled
+[2020.09.04-03.38.47:715][  0]SourceControl: Source control is disabled
+[2020.09.04-03.38.47:736][  0]SourceControl: Source control is disabled
+[2020.09.04-03.38.47:775][  0]SourceControl: Source control is disabled
+[2020.09.04-03.38.49:190][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.09.04-03.38.49:314][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.04-03.38.49:314][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.04-03.38.49:469][  0]LogHoudiniEngine: Starting the Houdini Engine module.
+[2020.09.04-03.38.49:485][  0]LogHoudiniEngine: Loaded libHAPIL.dll from Registry path C:/Program Files/SideFX/Houdini18.0.532/bin
+[2020.09.04-03.38.49:492][  0]LogLinker: Warning: Asset '../../Plugins/Runtime/HoudiniEngine/Content/houdini_logo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2020.09.04-03.38.49:503][  0]LogLinker: Warning: Asset '../../Plugins/Runtime/HoudiniEngine/Content/houdini_default_material.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2020.09.04-03.38.49:512][  0]LogLinker: Warning: Asset '../../Plugins/Runtime/HoudiniEngine/Content/houdini_bgeo_import.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2020.09.04-03.38.49:634][  0]LogOcInput: OculusInput pre-init called
+[2020.09.04-03.38.49:682][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.09.04-03.38.49:682][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.09.04-03.38.49:965][  0]LogEngine: Initializing Engine...
+[2020.09.04-03.38.49:967][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.04-03.38.49:967][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.09.04-03.38.49:970][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2020.09.04-03.38.50:306][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.09.04-03.38.50:358][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.09.04-03.38.50:358][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C4D7D9C800), frame # 0
+[2020.09.04-03.38.50:358][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C4D7DD0B80), frame # 0
+[2020.09.04-03.38.50:386][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.04-03.38.50:386][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.04-03.38.50:386][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.04-03.38.50:386][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.04-03.38.50:386][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.04-03.38.50:386][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.04-03.38.50:386][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.04-03.38.50:386][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.04-03.38.50:388][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.04-03.38.50:388][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.04-03.38.50:439][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.04-03.38.50:439][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.09.04-03.38.50:482][  0]LogAudioMixer: Display: Using Audio Device ライン (Steinberg UR22)
+[2020.09.04-03.38.50:483][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.04-03.38.50:513][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.04-03.38.50:513][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.04-03.38.50:515][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.04-03.38.50:516][  0]LogInit: FAudioDevice initialized.
+[2020.09.04-03.38.50:517][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.09.04-03.38.50:611][  0]LogDerivedDataCache: Saved boot cache 0.09s 76MB C:/Users/User01/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.04-03.38.50:617][  0]LogInit: Texture streaming: Enabled
+[2020.09.04-03.38.50:713][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.09.04-03.38.50:713][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.09.04-03.38.50:715][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.09.04-03.38.50:854][  0]LogInit: Transaction tracking system initialized
+[2020.09.04-03.38.51:006][  0]BlueprintLog: New page: Editor Load
+[2020.09.04-03.38.51:518][  0]LocalizationService: Localization service is disabled
+[2020.09.04-03.38.52:395][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.09.04-03.38.52:395][  0]LogCook: Display: Mobile HDR setting 1
+[2020.09.04-03.38.52:594][  0]LogFileCache: Scanning file cache for directory 'D:/Document/Unreal Projects/PW5/Content/' took 0.01s
+[2020.09.04-03.38.53:215][  0]LogHoudiniEngineEditor: Starting the Houdini Engine Editor module.
+[2020.09.04-03.38.53:221][  0]LogHoudiniEngineEditor: Houdini Engine Editor module startup complete.
+[2020.09.04-03.38.53:634][  0]SourceControl: Source control is disabled
+[2020.09.04-03.38.53:634][  0]LogUnrealEdMisc: Loading editor; pre map load, took 25.236
+[2020.09.04-03.38.53:635][  0]Cmd: MAP LOAD FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.09.04-03.38.53:729][  0]LightingResults: New page: Lighting Build
+[2020.09.04-03.38.53:734][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.09.04-03.38.53:735][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.04-03.38.53:735][  0]MapCheck: New page: Map Check
+[2020.09.04-03.38.53:735][  0]LightingResults: New page: Lighting Build
+[2020.09.04-03.38.53:751][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C4D7D9C800), frame # 0
+[2020.09.04-03.38.53:751][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C4D7DD0B80), frame # 0
+[2020.09.04-03.38.53:752][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.09.04-03.38.55:051][  0]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2020.09.04-03.38.55:051][  0]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2020.09.04-03.38.55:051][  0]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2020.09.04-03.38.57:576][  0]LogAIModule: Creating AISystem for world Level001
+[2020.09.04-03.38.57:576][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C4CCC95C00), frame # 0
+[2020.09.04-03.38.57:576][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C4C85360C0), frame # 0
+[2020.09.04-03.38.57:616][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.04-03.38.57:634][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2020.09.04-03.38.57:636][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.04-03.38.57:636][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.486ms to complete.
+[2020.09.04-03.38.57:636][  0]LogFileHelpers: Loading map 'Level001' took 4.002
+[2020.09.04-03.38.57:659][  0]LogUnrealEdMisc: Total Editor Startup Time, took 29.261
+[2020.09.04-03.38.57:933][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.04-03.38.57:942][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.04-03.38.57:948][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.04-03.38.57:954][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.04-03.38.57:989][  0]LogCollectionManager: Loaded 0 collections in 0.000873 seconds
+[2020.09.04-03.38.58:023][  0]LogFileCache: Scanning file cache for directory 'D:/Document/Unreal Projects/PW5/Saved/Collections/' took 0.00s
+[2020.09.04-03.38.58:023][  0]LogFileCache: Scanning file cache for directory 'D:/Document/Unreal Projects/PW5/Content/Developers/User01/Collections/' took 0.00s
+[2020.09.04-03.38.58:023][  0]LogFileCache: Scanning file cache for directory 'D:/Document/Unreal Projects/PW5/Content/Collections/' took 0.00s
+[2020.09.04-03.38.58:023][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 3466 classes and 831 folders.
+[2020.09.04-03.38.58:030][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.09.04-03.38.58:431][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.09.04-03.38.58:510][  0]LogSlate: Took 0.004842 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.09.04-03.38.58:519][  0]LogSlate: Took 0.004789 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.09.04-03.38.58:528][  0]LogSlate: Took 0.005305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.09.04-03.38.58:662][  0]LogRenderer: Reallocating scene render targets to support 1144x588 Format 10 NumSamples 1 (Frame:1).
+[2020.09.04-03.38.58:934][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.09.04-03.38.58:934][  0]LogLoad: (Engine Initialization) Total time: 30.54 seconds
+[2020.09.04-03.38.58:934][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.09.04-03.38.58:986][  0]LogAssetRegistry: Asset discovery search completed in 16.3788 seconds
+[2020.09.04-03.38.58:992][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
+[2020.09.04-03.38.58:996][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.09.04-03.38.59:035][  0]LogSlate: Took 0.005586 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.04-03.40.01:191][399]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2020.09.04-03.40.20:358][ 17]LogEditorViewport: Clicking Background
+[2020.09.04-03.40.32:508][388]LogActorFactory: Actor Factory created Cube
+[2020.09.04-03.40.33:087][456]LogActorFactory: Actor Factory created Cube
+[2020.09.04-03.40.40:052][104]LogSlate: Took 0.010753 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.09.04-03.40.49:280][143]Cmd: DELETE
+[2020.09.04-03.40.49:280][143]Cmd: ACTOR DELETE
+[2020.09.04-03.40.49:292][143]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.04-03.40.49:300][143]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.09.04-03.40.49:301][143]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2020.09.04-03.40.56:555][928]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.04-03.40.58:017][928]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.09.04-03.41.06:432][769]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/Floor.Floor
+[2020.09.04-03.41.06:959][769]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2020.09.04-03.41.08:127][769]LogRenderer: Reallocating scene render targets to support 1144x724 Format 10 NumSamples 1 (Frame:1).
+[2020.09.04-03.41.56:094][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Floor" FILE="D:/Document/Unreal Projects/PW5/Content/BluePrints/Floor.uasset" SILENT=true
+[2020.09.04-03.41.56:146][356]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/FloorC62CF941454DD1C6C53959ACE1A22659.tmp' to 'D:/Document/Unreal Projects/PW5/Content/BluePrints/Floor.uasset'
+[2020.09.04-03.41.56:177][356]AssetCheck: New page: Asset Save: Floor
+[2020.09.04-03.41.56:177][356]LogContentValidation: Display: Validating Blueprint /Game/BluePrints/Floor.Floor
+[2020.09.04-03.41.57:398][472]BlueprintLog: New page: Compile Floor
+[2020.09.04-03.41.57:458][472]LogUObjectHash: Compacting FUObjectHashTables data took   5.15ms
+[2020.09.04-03.41.57:504][472]LogSlate: Took 0.007293 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.09.04-03.42.04:189][119]LogHttp: Warning: 000001C4F534F200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5D2EB2A5-4E38-EDD3-B013-2F876F5AE939%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=d0114e844308c54da4a661aa82ef2dde%7Cb56b0ca85bf24dd095ae3a4fc1fbcfdb%7C1351b4bd-2f74-4bbd-9710-e2cf9cf9a08b&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.09.04-03.42.04:189][119]LogHttp: Warning: 000001C4F534F200: request failed, libcurl error: 0 (No error)
+[2020.09.04-03.42.04:189][119]LogHttp: Warning: 000001C4F534F200: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1c4b015bf70 [can pipeline])
+[2020.09.04-03.42.04:189][119]LogHttp: Warning: 000001C4F534F200: libcurl info message cache 1 (Re-using existing connection! (#0) with host datarouter.ol.epicgames.com)
+[2020.09.04-03.42.04:189][119]LogHttp: Warning: 000001C4F534F200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (35.170.111.251) port 443 (#0))
+[2020.09.04-03.42.04:190][119]LogHttp: Warning: 000001C4F534F200: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.09.04-03.42.04:190][119]LogHttp: Warning: 000001C4F534F200: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2020.09.04-03.42.04:190][119]LogHttp: Warning: 000001C4F534F200: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.09.04-03.42.04:190][119]LogHttp: Warning: 000001C4F534F200: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.09.04-03.42.04:190][119]LogHttp: Warning: 000001C4F534F200: libcurl info message cache 7 (Closing connection 0)
+[2020.09.04-03.42.04:190][119]LogHttp: Warning: 000001C4F534F200: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2020.09.04-03.42.04:201][120]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5D2EB2A5-4E38-EDD3-B013-2F876F5AE939%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=d0114e844308c54da4a661aa82ef2dde%7Cb56b0ca85bf24dd095ae3a4fc1fbcfdb%7C1351b4bd-2f74-4bbd-9710-e2cf9cf9a08b&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.09.04-03.42.13:505][ 30]BlueprintLog: New page: Compile Floor
+[2020.09.04-03.42.13:534][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2020.09.04-03.42.13:971][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Floor" FILE="D:/Document/Unreal Projects/PW5/Content/BluePrints/Floor.uasset" SILENT=true
+[2020.09.04-03.42.14:242][ 63]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Floor6B252FB040C2A76BB7320493C4C0405C.tmp' to 'D:/Document/Unreal Projects/PW5/Content/BluePrints/Floor.uasset'
+[2020.09.04-03.42.14:255][ 63]AssetCheck: New page: Asset Save: Floor
+[2020.09.04-03.42.14:255][ 63]LogContentValidation: Display: Validating Blueprint /Game/BluePrints/Floor.Floor
+[2020.09.04-03.42.23:164][848]LogSlate: Window 'Floor' being destroyed
+[2020.09.04-03.42.31:879][828]Cmd: TRANSACTION UNDO
+[2020.09.04-03.42.31:879][828]LogEditorTransaction: Undo Create Actors
+[2020.09.04-03.42.38:435][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Floor" FILE="D:/Document/Unreal Projects/PW5/Content/BluePrints/Floor.uasset" SILENT=true
+[2020.09.04-03.42.38:495][553]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Floor679847CC40FD9A477D5A7BBCFBE56C5E.tmp' to 'D:/Document/Unreal Projects/PW5/Content/BluePrints/Floor.uasset'
+[2020.09.04-03.42.38:510][553]AssetCheck: New page: Asset Save: Floor
+[2020.09.04-03.42.38:510][553]LogContentValidation: Display: Validating Blueprint /Game/BluePrints/Floor.Floor
+[2020.09.04-03.42.45:931][431]BlueprintLog: New page: Compile Floor
+[2020.09.04-03.42.45:965][431]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2020.09.04-03.42.54:591][408]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.09.04-03.43.18:048][ 75]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.09.04-03.43.25:586][943]LogEditorViewport: Clicking Background
+[2020.09.04-03.43.26:605][ 63]LogEditorViewport: Clicking on Actor (LMB): Floor_C (Floor)
+[2020.09.04-03.43.32:947][788]Cmd: TRANSACTION UNDO
+[2020.09.04-03.43.32:947][788]LogEditorTransaction: Undo Move Actors
+[2020.09.04-03.43.35:460][ 29]Cmd: DUPLICATE
+[2020.09.04-03.43.35:460][ 29]Cmd: ACTOR DUPLICATE
+[2020.09.04-03.43.39:963][531]Cmd: TRANSACTION UNDO
+[2020.09.04-03.43.39:963][531]LogEditorTransaction: Undo Move Actors
+[2020.09.04-03.43.44:417][986]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.09.04-03.43.57:477][452]Cmd: DUPLICATE
+[2020.09.04-03.43.57:477][452]Cmd: ACTOR DUPLICATE
+[2020.09.04-03.44.05:983][416]LogEditorViewport: Clicking on Actor (LMB): Floor_C (Floor2)
+[2020.09.04-03.44.17:687][729]LogEditorViewport: Clicking Background
+[2020.09.04-03.44.20:416][ 52]LogEditorViewport: Clicking on Actor (LMB): Floor_C (Floor3)
+[2020.09.04-03.44.22:801][323]Cmd: DUPLICATE
+[2020.09.04-03.44.22:801][323]Cmd: ACTOR DUPLICATE
+[2020.09.04-03.44.29:051][ 32]Cmd: DUPLICATE
+[2020.09.04-03.44.29:051][ 32]Cmd: ACTOR DUPLICATE
+[2020.09.04-03.44.33:242][509]LogEditorViewport: Clicking Background
+[2020.09.04-03.44.33:621][553]LogEditorViewport: Clicking on Actor (LMB): Floor_C (Floor8)
+[2020.09.04-03.44.35:480][763]Cmd: EDIT COPY
+[2020.09.04-03.44.35:673][784]Cmd: EDIT PASTE
+[2020.09.04-03.44.37:515][991]LogEditorViewport: Clicking Background
+[2020.09.04-03.44.40:296][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.04-03.44.40:326][318]LogUObjectHash: Compacting FUObjectHashTables data took   4.33ms
+[2020.09.04-03.44.40:448][318]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001C8151D77471F97610AD402BA31491DE7.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.09.04-03.44.40:517][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.09.04-03.44.40:709][318]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltData9D953B3D4430334EC0FCEDA6E1AB452E.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.09.04-03.44.40:751][318]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.04-03.44.40:751][318]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.09.04-03.44.40:751][318]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.09.04-03.44.57:399][303]LogEditorViewport: Clicking on Actor (LMB): LockableDoor_C (LockableDoor)
+[2020.09.04-03.44.57:455][303]LogSlate: Took 0.017155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.09.04-03.44.59:189][498]Cmd: EDIT COPY
+[2020.09.04-03.45.04:759][130]Cmd: EDIT PASTE
+[2020.09.04-03.45.11:382][882]LogEditorViewport: Clicking Background
+[2020.09.04-03.45.16:665][509]LogEditorViewport: Clicking on Actor (LMB): LockableDoor_C (LockableDoor4)
+[2020.09.04-03.45.27:346][717]Cmd: DELETE
+[2020.09.04-03.45.27:346][717]Cmd: ACTOR DELETE
+[2020.09.04-03.45.27:348][717]LogEditorActor: Deleted Actor: LockableDoor_C
+[2020.09.04-03.45.27:369][717]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2020.09.04-03.45.27:370][717]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2020.09.04-03.45.29:077][921]LogEditorViewport: Clicking on Actor (LMB): Floor_C (Floor8)
+[2020.09.04-03.45.30:032][ 28]LogEditorViewport: Clicking on Actor (LMB): Floor_C (Floor9)
+[2020.09.04-03.45.36:913][824]Cmd: EDIT COPY
+[2020.09.04-03.45.37:158][852]Cmd: EDIT PASTE
+[2020.09.04-03.45.51:882][189]LogEditorViewport: Clicking Background
+[2020.09.04-03.45.52:583][271]LogEditorViewport: Clicking on Actor (LMB): Floor_C (Floor10)
+[2020.09.04-03.45.54:903][534]Cmd: EDIT COPY
+[2020.09.04-03.45.55:165][563]Cmd: EDIT PASTE
+[2020.09.04-03.45.57:732][853]Cmd: EDIT PASTE
+[2020.09.04-03.46.00:773][186]LogEditorViewport: Clicking Background
+[2020.09.04-03.46.02:052][335]LogEditorViewport: Clicking on Actor (LMB): Floor_C (Floor9)
+[2020.09.04-03.46.09:910][222]Cmd: EDIT COPY
+[2020.09.04-03.46.10:833][326]LogEditorViewport: Clicking Background
+[2020.09.04-03.46.11:358][387]Cmd: EDIT PASTE
+[2020.09.04-03.46.14:989][796]LogEditorViewport: Clicking Background
+[2020.09.04-03.46.21:807][607]LogEditorViewport: Clicking on Actor (LMB): Floor_C (Floor21)
+[2020.09.04-03.46.25:180][988]LogEditorViewport: Clicking Background
+[2020.09.04-03.46.28:305][343]Cmd: EDIT COPY
+[2020.09.04-03.46.28:539][369]Cmd: EDIT PASTE
+[2020.09.04-03.46.31:045][654]LogEditorViewport: Clicking Background
+[2020.09.04-03.46.48:238][704]LogEditorViewport: Clicking on Actor (LMB): Floor_C (Floor9)
+[2020.09.04-03.47.17:147][975]Cmd: DUPLICATE
+[2020.09.04-03.47.17:147][975]Cmd: ACTOR DUPLICATE
+[2020.09.04-03.47.34:973][986]Cmd: TRANSACTION UNDO
+[2020.09.04-03.47.34:973][986]LogEditorTransaction: Undo Move Actors
+[2020.09.04-03.47.43:375][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.04-03.47.43:429][907]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2020.09.04-03.47.43:549][907]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001742F6E5C44491643F8561D986D69D813.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.09.04-03.47.43:601][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.09.04-03.47.43:688][907]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltData4F906CF74FA6689C673B71B0262BBB95.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.09.04-03.47.43:708][907]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.04-03.47.43:708][907]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.09.04-03.47.43:708][907]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.09.04-03.47.45:624][129]LogEditorViewport: Clicking Background
+[2020.09.04-03.49.23:886][851]LogEditorViewport: Clicking on Actor (LMB): Floor_C (Floor25)
+[2020.09.04-03.49.26:668][167]LogEditorViewport: Clicking on Actor (LMB): Floor_C (Floor24)
+[2020.09.04-03.49.29:161][450]LogEditorViewport: Clicking on Actor (LMB): Floor_C (Floor48)
+[2020.09.04-03.49.40:980][793]LogEditorViewport: Clicking Background
+[2020.09.04-03.49.57:063][704]LogEditorViewport: Clicking on Actor (LMB): Floor_C (Floor12)
+[2020.09.04-03.49.59:996][ 35]Cmd: EDIT COPY
+[2020.09.04-03.50.00:319][ 72]Cmd: EDIT PASTE
+[2020.09.04-03.50.03:697][461]Cmd: EDIT PASTE
+[2020.09.04-03.50.08:257][985]LogEditorViewport: Clicking on Actor (LMB): Floor_C (Floor51)
+[2020.09.04-03.50.14:365][681]LogEditorViewport: Clicking on Actor (LMB): Floor_C (Floor22)
+[2020.09.04-03.50.18:371][ 93]Cmd: EDIT COPY
+[2020.09.04-03.50.18:638][124]Cmd: EDIT PASTE
+[2020.09.04-03.50.20:507][333]Cmd: EDIT PASTE
+[2020.09.04-03.50.22:247][527]LogEditorViewport: Clicking Background
+[2020.09.04-03.50.23:046][621]LogEditorViewport: Clicking on Actor (LMB): Floor_C (Floor21)
+[2020.09.04-03.50.35:171][996]Cmd: EDIT COPY
+[2020.09.04-03.50.35:421][ 25]Cmd: EDIT PASTE
+[2020.09.04-03.50.37:957][314]Cmd: EDIT PASTE
+[2020.09.04-03.50.40:119][557]Cmd: EDIT PASTE
+[2020.09.04-03.50.42:244][796]Cmd: EDIT PASTE
+[2020.09.04-03.50.50:285][717]LogEditorViewport: Clicking on Actor (LMB): Floor_C (Floor13)
+[2020.09.04-03.50.56:023][354]Cmd: EDIT PASTE
+[2020.09.04-03.51.01:689][988]Cmd: EDIT COPY
+[2020.09.04-03.51.01:958][ 19]Cmd: EDIT PASTE
+[2020.09.04-03.51.04:064][253]Cmd: EDIT PASTE
+[2020.09.04-03.51.06:142][481]Cmd: EDIT PASTE
+[2020.09.04-03.51.11:977][145]LogEditorViewport: Clicking on Actor (LMB): Floor_C (Floor13)
+[2020.09.04-03.51.36:564][815]Cmd: EDIT COPY
+[2020.09.04-03.51.36:881][851]Cmd: EDIT PASTE
+[2020.09.04-03.51.41:962][385]Cmd: EDIT PASTE
+[2020.09.04-03.51.56:460][994]LogEditorViewport: Clicking on Actor (LMB): Floor_C (Floor97)
+[2020.09.04-03.52.28:875][582]LogEditorViewport: Clicking on Actor (LMB): Floor_C (Floor51)
+[2020.09.04-03.52.45:159][437]LogEditorViewport: Clicking on Actor (LMB): Floor_C (Floor13)
+[2020.09.04-03.54.48:323][131]Cmd: TRANSACTION UNDO
+[2020.09.04-03.54.48:323][131]LogEditorTransaction: Undo Move Actors
+[2020.09.04-03.54.51:440][435]LogEditorViewport: Clicking on Actor (LMB): Floor_C (Floor185)
+[2020.09.04-03.55.09:846][566]LogEditorViewport: Clicking on Actor (LMB): Floor_C (Floor176)
+[2020.09.04-03.55.33:274][177]Cmd: EDIT CUT
+[2020.09.04-03.55.33:294][177]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.55.33:295][177]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.55.33:295][177]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.55.33:295][177]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.55.33:296][177]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.55.33:296][177]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.55.33:297][177]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.55.33:298][177]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.55.33:298][177]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.55.33:298][177]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.55.33:299][177]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.55.33:299][177]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.55.33:300][177]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.55.33:301][177]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.55.33:302][177]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.55.33:303][177]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.55.33:359][177]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2020.09.04-03.55.33:363][177]LogEditorActor: Deleted 16 Actors (0.079 secs)
+[2020.09.04-03.55.38:837][817]Cmd: EDIT PASTE
+[2020.09.04-03.55.58:677][ 71]Cmd: EDIT CUT
+[2020.09.04-03.55.58:689][ 71]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.55.58:690][ 71]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.55.58:691][ 71]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.55.58:692][ 71]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.55.58:693][ 71]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.55.58:694][ 71]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.55.58:694][ 71]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.55.58:695][ 71]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.55.58:695][ 71]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.55.58:696][ 71]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.55.58:696][ 71]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.55.58:696][ 71]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.55.58:697][ 71]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.55.58:697][ 71]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.55.58:698][ 71]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.55.58:698][ 71]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.55.58:721][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2020.09.04-03.55.58:724][ 71]LogEditorActor: Deleted 16 Actors (0.041 secs)
+[2020.09.04-03.56.10:477][461]Cmd: EDIT PASTE
+[2020.09.04-03.56.18:379][356]Cmd: DELETE
+[2020.09.04-03.56.18:379][356]Cmd: ACTOR DELETE
+[2020.09.04-03.56.18:386][356]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.18:387][356]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.18:387][356]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.18:387][356]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.18:388][356]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.18:388][356]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.18:389][356]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.18:389][356]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.18:389][356]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.18:390][356]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.18:390][356]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.18:391][356]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.18:391][356]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.18:392][356]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.18:392][356]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.18:393][356]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.18:416][356]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2020.09.04-03.56.18:418][356]LogEditorActor: Deleted 16 Actors (0.039 secs)
+[2020.09.04-03.56.26:325][261]Cmd: DELETE
+[2020.09.04-03.56.26:325][261]Cmd: ACTOR DELETE
+[2020.09.04-03.56.26:336][261]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.26:337][261]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.26:338][261]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.26:338][261]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.26:339][261]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.26:339][261]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.26:340][261]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.26:340][261]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.26:341][261]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.26:341][261]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.26:341][261]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.26:342][261]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.26:342][261]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.26:343][261]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.26:343][261]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.26:343][261]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.26:344][261]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.26:344][261]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.26:345][261]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.26:345][261]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.26:346][261]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.26:346][261]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.26:346][261]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.26:347][261]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.26:347][261]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.26:348][261]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.26:348][261]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.26:349][261]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.26:349][261]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.26:349][261]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.26:350][261]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.26:350][261]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.26:351][261]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.26:351][261]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.26:352][261]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-03.56.26:373][261]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2020.09.04-03.56.26:376][261]LogEditorActor: Deleted 35 Actors (0.051 secs)
+[2020.09.04-03.56.42:352][106]Cmd: DELETE
+[2020.09.04-03.56.42:352][106]Cmd: ACTOR DELETE
+[2020.09.04-03.56.42:357][106]LogEditorActor: Actor Staircase4 is referenced by Staircase2.
+[2020.09.04-03.56.45:491][106]LogSlate: Window 'Message' being destroyed
+[2020.09.04-03.56.45:495][106]Message dialog closed, result: Yes, title: Message, text: Actor Staircase4 is referenced by other Actors/Objects.
+Do you really want to delete it? This will break references.
+
+Reference List:
+
+Staircase2
+[2020.09.04-03.56.45:496][106]LogEditorActor: Deleted Actor: StaircaseToDownstairs_C
+[2020.09.04-03.56.45:497][106]LogEditorActor: Actor Staircase1 is referenced by Staircase3.
+[2020.09.04-03.56.47:122][106]LogSlate: Window 'Message' being destroyed
+[2020.09.04-03.56.47:126][106]Message dialog closed, result: YesAll, title: Message, text: Actor Staircase1 is referenced by other Actors/Objects.
+Do you really want to delete it? This will break references.
+
+Reference List:
+
+Staircase3
+[2020.09.04-03.56.47:127][106]LogEditorActor: Deleted Actor: StaircaseToUpstairs_C
+[2020.09.04-03.56.47:127][106]LogEditorActor: Actor Staircase2 is referenced by Staircase4.
+[2020.09.04-03.56.47:127][106]LogEditorActor: Deleted Actor: StaircaseToUpstairs_C
+[2020.09.04-03.56.47:128][106]LogEditorActor: Actor Staircase3 is referenced by Staircase1.
+[2020.09.04-03.56.47:128][106]LogEditorActor: Deleted Actor: StaircaseToDownstairs_C
+[2020.09.04-03.56.47:153][106]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.09.04-03.56.47:157][106]LogEditorActor: Deleted 4 Actors (0.037 secs)
+[2020.09.04-03.56.50:498][486]Cmd: DELETE
+[2020.09.04-03.56.50:498][486]Cmd: ACTOR DELETE
+[2020.09.04-03.56.50:503][486]LogEditorActor: Deleted Actor: LockableDoor_C
+[2020.09.04-03.56.50:504][486]LogEditorActor: Deleted Actor: LockableDoor_C
+[2020.09.04-03.56.50:505][486]LogEditorActor: Deleted Actor: LockableDoor_C
+[2020.09.04-03.56.50:528][486]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2020.09.04-03.56.50:529][486]LogEditorActor: Deleted 3 Actors (0.031 secs)
+[2020.09.04-03.57.10:916][826]Cmd: DELETE
+[2020.09.04-03.57.10:916][826]Cmd: ACTOR DELETE
+[2020.09.04-03.57.10:922][826]LogEditorActor: Deleted Actor: Letter_C
+[2020.09.04-03.57.10:923][826]LogEditorActor: Deleted Actor: PlayerMover_C
+[2020.09.04-03.57.10:923][826]LogEditorActor: Deleted Actor: Sof_C
+[2020.09.04-03.57.10:923][826]LogEditorActor: Deleted Actor: SeparatedKey_C
+[2020.09.04-03.57.10:924][826]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.04-03.57.10:924][826]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.04-03.57.10:925][826]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.04-03.57.10:925][826]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.04-03.57.10:926][826]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.04-03.57.10:927][826]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.04-03.57.10:949][826]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2020.09.04-03.57.10:953][826]LogEditorActor: Deleted 10 Actors (0.037 secs)
+[2020.09.04-03.57.12:653][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.04-03.57.12:677][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2020.09.04-03.57.12:832][ 27]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001944533144A4C4B3AFEEFC68DCF3D6321.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.09.04-03.57.12:894][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.09.04-03.57.12:971][ 27]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltData9D9922F449999396E0599199BCF53216.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.09.04-03.57.12:993][ 27]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.04-03.57.12:993][ 27]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.09.04-03.57.12:993][ 27]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.09.04-03.57.23:091][230]LogEditorViewport: Clicking on Actor (LMB): Floor_C (Floor164)
+[2020.09.04-03.57.24:470][385]Cmd: EDIT COPY
+[2020.09.04-03.57.24:782][421]Cmd: EDIT PASTE
+[2020.09.04-03.57.27:987][786]Cmd: EDIT PASTE
+[2020.09.04-03.57.30:017][ 12]Cmd: EDIT PASTE
+[2020.09.04-03.57.32:017][237]Cmd: EDIT PASTE
+[2020.09.04-03.57.35:959][686]Cmd: EDIT PASTE
+[2020.09.04-03.57.40:710][224]Cmd: EDIT COPY
+[2020.09.04-03.57.40:970][253]Cmd: EDIT PASTE
+[2020.09.04-03.57.42:493][423]Cmd: EDIT PASTE
+[2020.09.04-03.57.44:060][600]Cmd: EDIT PASTE
+[2020.09.04-03.57.45:672][779]Cmd: EDIT PASTE
+[2020.09.04-03.57.47:385][968]Cmd: EDIT PASTE
+[2020.09.04-03.57.49:801][241]Cmd: EDIT PASTE
+[2020.09.04-03.57.51:523][432]Cmd: EDIT PASTE
+[2020.09.04-03.57.56:270][969]Cmd: EDIT COPY
+[2020.09.04-03.57.56:513][996]Cmd: EDIT PASTE
+[2020.09.04-03.57.58:442][212]Cmd: EDIT PASTE
+[2020.09.04-03.57.59:938][380]Cmd: EDIT PASTE
+[2020.09.04-03.58.01:334][534]Cmd: EDIT PASTE
+[2020.09.04-03.58.02:896][708]Cmd: EDIT PASTE
+[2020.09.04-03.58.04:664][907]Cmd: EDIT PASTE
+[2020.09.04-03.58.30:234][896]Cmd: DUPLICATE
+[2020.09.04-03.58.30:234][896]Cmd: ACTOR DUPLICATE
+[2020.09.04-03.58.36:471][644]Cmd: TRANSACTION UNDO
+[2020.09.04-03.58.36:471][644]LogEditorTransaction: Undo Duplicate Actors
+[2020.09.04-03.58.41:454][185]Cmd: DUPLICATE
+[2020.09.04-03.58.41:454][185]Cmd: ACTOR DUPLICATE
+[2020.09.04-03.58.47:112][815]LogEditorViewport: Clicking on Actor (LMB): Floor_C (Floor54)
+[2020.09.04-03.59.01:243][412]Cmd: EDIT COPY
+[2020.09.04-03.59.01:601][453]Cmd: EDIT PASTE
+[2020.09.04-03.59.06:309][974]LogEditorViewport: Clicking Background
+[2020.09.04-03.59.42:834][295]Cmd: DUPLICATE
+[2020.09.04-03.59.42:834][295]Cmd: ACTOR DUPLICATE
+[2020.09.04-04.00.26:841][174]LogEditorViewport: Clicking Background
+[2020.09.04-04.01.02:636][339]LogEditorViewport: Clicking Background
+[2020.09.04-04.01.20:777][506]Cmd: DUPLICATE
+[2020.09.04-04.01.20:777][506]Cmd: ACTOR DUPLICATE
+[2020.09.04-04.01.24:159][911]Cmd: TRANSACTION UNDO
+[2020.09.04-04.01.24:159][911]LogEditorTransaction: Undo Duplicate Actors
+[2020.09.04-04.01.33:528][964]Cmd: DUPLICATE
+[2020.09.04-04.01.33:528][964]Cmd: ACTOR DUPLICATE
+[2020.09.04-04.01.52:844][981]Cmd: DUPLICATE
+[2020.09.04-04.01.52:844][981]Cmd: ACTOR DUPLICATE
+[2020.09.04-04.02.09:007][851]Cmd: DUPLICATE
+[2020.09.04-04.02.09:007][851]Cmd: ACTOR DUPLICATE
+[2020.09.04-04.02.21:535][271]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.04-04.02.21:585][271]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2020.09.04-04.02.21:825][271]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level0018AFF4DA34CE1F5DFABA0A0B24E23A24A.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.09.04-04.02.21:877][271]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.09.04-04.02.22:053][271]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltData053D3C164B4FFC69E2079AB5FEE46E8E.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.09.04-04.02.22:070][271]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.04-04.02.22:070][271]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.09.04-04.02.22:070][271]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.09.04-04.02.33:345][590]Cmd: TRANSACTION UNDO
+[2020.09.04-04.02.33:345][590]LogEditorTransaction: Undo Move Actors
+[2020.09.04-04.02.54:473][903]Cmd: TRANSACTION UNDO
+[2020.09.04-04.02.54:473][903]LogEditorTransaction: Undo Move Actors
+[2020.09.04-04.04.51:775][804]LogEditorViewport: Clicking Background
+[2020.09.04-04.12.21:966][271]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2020.09.04-04.12.21:973][271]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Saved/Autosaves/Game/Levels/Level001_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.09.04-04.12.22:360][271]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_Auto17F596B994DE648A964DCF98F285BA96F.tmp' to 'D:/Document/Unreal Projects/PW5/Saved/Autosaves/Game/Levels/Level001_Auto1.umap'
+[2020.09.04-04.12.22:372][271]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level001' took 0.453
+[2020.09.04-04.12.22:372][271]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.453
+[2020.09.04-04.13.17:092][844]MapCheck: New page: Map Check
+[2020.09.04-04.13.17:111][844]LightingResults: New page: Lighting Build - 2020/09/04 22:13:17
+[2020.09.04-04.13.17:248][844]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.09.04-04.13.17:487][844]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.09.04-04.13.17:504][844]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.09.04-04.13.18:525][844]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.09.04-04.13.18:525][844]LogSwarmInterface: [TryOpenConnection] Local Process ID is 15420
+[2020.09.04-04.13.24:929][844]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.09.04-04.13.24:930][844]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.09.04-04.13.24:930][844]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.09.04-04.13.24:930][844]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.09.04-04.13.24:930][844]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.09.04-04.13.24:930][844]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.09.04-04.13.25:166][844]LogEditorBuildUtils: Build time 0:08
+[2020.09.04-04.13.25:171][844]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Red, compiling. 
+[2020.09.04-04.13.25:182][844]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Red, compiling. 
+[2020.09.04-04.13.25:224][845]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2020.09.04-04.13.25:224][845]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.09.04-04.13.25:229][845]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2020.09.04-04.13.25:233][845]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2020.09.04-04.13.26:540][845]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2020.09.04-04.13.26:540][845]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2020.09.04-04.13.26:741][850]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.09.04-04.13.28:490][965]Job is a success!
+[2020.09.04-04.13.28:642][965]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.010s
+[2020.09.04-04.13.28:642][965]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.09.04-04.13.28:642][965]LogVolumetricLightmapImport:      BrickData (all levels) 0.1Mb (trimmed 0.1Mb due to 0.010000 MinBrickError)
+[2020.09.04-04.13.28:642][965]LogVolumetricLightmapImport:      Bricks at depth
+[2020.09.04-04.13.28:642][965]LogVolumetricLightmapImport:          0: 5.9% covering 100.0% of volume
+[2020.09.04-04.13.28:642][965]LogVolumetricLightmapImport:          1: 11.8% covering 3.1% of volume
+[2020.09.04-04.13.28:642][965]LogVolumetricLightmapImport:          2: 82.4% covering 0.3% of volume
+[2020.09.04-04.13.28:642][965]LogVolumetricLightmapImport:      Bricks in each level
+[2020.09.04-04.13.28:642][965]LogVolumetricLightmapImport:          Level001 			 17 bricks 	 100.0% (Persistent Level)
+[2020.09.04-04.13.28:882][965]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2020.09.04-04.13.28:882][965]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2020.09.04-04.13.28:882][965]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2020.09.04-04.13.28:931][965]Lightmass on KAMATA: 1.46 sec total, 161 ms importing, 24 ms setup, 112 ms photons, 1.12 sec processing, 0 ms extra exporting [35/35 mappings]. Threads: 7.86 sec total, 1.57 sec processing.
+[2020.09.04-04.13.28:931][965]LogStaticLightingSystem: Level001_BuiltData storing lightmap data for 35 meshes in 1 LightmapResourceClusters (35.0 Meshes per cluster).
+[2020.09.04-04.13.28:964][965]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.09.04-04.13.29:014][965]LogStaticLightingSystem: Illumination: 11.8 sec (244 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2020.09.04-04.13.29:014][965]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2020.09.04-04.13.29:015][965]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2020.09.04-04.13.29:932][965]DumpUnbuiltLightIteractions
+[2020.09.04-04.13.29:932][965]Lights with unbuilt interactions: 0
+[2020.09.04-04.13.29:932][965]
+[2020.09.04-04.13.29:933][965]Primitives with unbuilt interactions: 0
+[2020.09.04-04.13.30:012][966]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.09.04-04.13.30:012][966]MapCheck: New page: Level001 - 2020/09/04 22:13:30
+[2020.09.04-04.13.30:018][966]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 6.687ms to complete.
+[2020.09.04-04.13.48:243][142]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.04-04.13.48:272][142]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.04-04.13.48:272][142]PIE: New page: PIE session: Level001 (2020/09/04 22:13:48)
+[2020.09.04-04.13.48:274][142]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.09.04-04.13.48:275][142]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.09.04-04.13.48:275][142]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level001
+[2020.09.04-04.13.48:305][142]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029140s)
+[2020.09.04-04.13.48:306][142]LogAIModule: Creating AISystem for world Level001
+[2020.09.04-04.13.48:306][142]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C5468D6E00), frame # 179142
+[2020.09.04-04.13.48:306][142]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C523F679C0), frame # 179142
+[2020.09.04-04.13.48:306][142]LogPlayLevel: PIE: World Init took: (0.001212s)
+[2020.09.04-04.13.48:306][142]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level001.Level001 to /Game/Levels/UEDPIE_0_Level001.Level001 (0.030527s)
+[2020.09.04-04.13.48:330][142]LogUObjectHash: Compacting FUObjectHashTables data took   4.21ms
+[2020.09.04-04.13.48:334][142]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.04-04.13.48:334][142]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.04-04.13.48:334][142]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.04-04.13.48:334][142]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.04-04.13.48:334][142]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.04-04.13.48:334][142]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.04-04.13.48:334][142]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.04-04.13.48:334][142]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.04-04.13.48:334][142]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.04-04.13.48:334][142]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.04-04.13.48:342][142]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.04-04.13.48:342][142]LogAudioMixer: Display: 1: FrontRight
+[2020.09.04-04.13.48:359][142]LogAudioMixer: Display: Using Audio Device ライン (Steinberg UR22)
+[2020.09.04-04.13.48:360][142]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.04-04.13.48:360][142]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.04-04.13.48:360][142]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.04-04.13.48:360][142]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.04-04.13.48:373][142]LogInit: FAudioDevice initialized.
+[2020.09.04-04.13.48:386][142]LogLoad: Game class is 'PW5GameMode_C'
+[2020.09.04-04.13.48:409][142]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level001.Level001 up for play (max tick rate 0) at 2020.09.04-13.13.48
+[2020.09.04-04.13.48:410][142]LogWorld: Bringing up level for play took: 0.020873
+[2020.09.04-04.13.48:410][142]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2020.09.04-04.13.48:414][142]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2020.09.04-04.13.48:425][142]PIE: Server logged in
+[2020.09.04-04.13.48:427][142]PIE: Play in editor total start time 0.16 seconds.
+[2020.09.04-04.13.53:562][702]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.04-04.13.53:562][702]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level001
+[2020.09.04-04.13.53:563][702]LogWorld: UWorld::CleanupWorld for Level001, bSessionEnded=true, bCleanupResources=true
+[2020.09.04-04.13.53:565][702]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.04-04.13.53:570][702]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.04-04.13.53:582][702]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.04-04.13.53:627][702]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.04-04.13.53:641][702]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C523F679C0), frame # 179702
+[2020.09.04-04.13.53:641][702]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C5468D6E00), frame # 179702
+[2020.09.04-04.13.53:677][702]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2020.09.04-04.13.53:717][703]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.09.04-04.14.21:739][  2]Cmd: DELETE
+[2020.09.04-04.14.21:740][  2]Cmd: ACTOR DELETE
+[2020.09.04-04.14.21:806][  2]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2020.09.04-04.14.21:808][  2]LogEditorActor: Deleted 0 Actors (0.068 secs)
+[2020.09.04-04.14.24:514][304]Cmd: TRANSACTION UNDO
+[2020.09.04-04.14.24:514][304]LogEditorTransaction: Undo Delete Actors
+[2020.09.04-04.14.50:791][346]Cmd: DELETE
+[2020.09.04-04.14.50:791][346]Cmd: ACTOR DELETE
+[2020.09.04-04.14.50:827][346]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2020.09.04-04.14.50:830][346]LogEditorActor: Deleted 0 Actors (0.039 secs)
+[2020.09.04-04.14.59:323][326]Cmd: DELETE
+[2020.09.04-04.14.59:323][326]Cmd: ACTOR DELETE
+[2020.09.04-04.14.59:347][326]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2020.09.04-04.14.59:349][326]LogEditorActor: Deleted 0 Actors (0.025 secs)
+[2020.09.04-04.15.10:034][529]Cmd: DELETE
+[2020.09.04-04.15.10:034][529]Cmd: ACTOR DELETE
+[2020.09.04-04.15.10:053][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:054][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:055][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:055][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:055][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:055][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:056][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:056][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:056][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:058][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:058][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:059][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:059][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:059][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:059][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:060][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:060][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:060][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:064][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:065][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:066][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:067][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:067][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:068][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:069][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:069][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:070][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:072][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:073][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:073][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:073][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:074][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:074][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:074][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:074][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:074][529]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.10:075][529]LogEditorActor: Actor GroupActor is referenced by Floor37.
+[2020.09.04-04.15.10:075][529]LogEditorActor: Actor GroupActor is referenced by Floor38.
+[2020.09.04-04.15.10:075][529]LogEditorActor: Actor GroupActor is referenced by Floor39.
+[2020.09.04-04.15.10:075][529]LogEditorActor: Actor GroupActor is referenced by Floor355.
+[2020.09.04-04.15.10:075][529]LogEditorActor: Actor GroupActor is referenced by Floor356.
+[2020.09.04-04.15.10:075][529]LogEditorActor: Actor GroupActor is referenced by Floor357.
+[2020.09.04-04.15.10:075][529]LogEditorActor: Actor GroupActor is referenced by Floor358.
+[2020.09.04-04.15.10:075][529]LogEditorActor: Actor GroupActor is referenced by Floor359.
+[2020.09.04-04.15.10:075][529]LogEditorActor: Actor GroupActor is referenced by Floor360.
+[2020.09.04-04.15.13:085][529]LogSlate: Window 'Message' being destroyed
+[2020.09.04-04.15.13:089][529]Message dialog closed, result: YesAll, title: Message, text: Actor GroupActor is referenced by other Actors/Objects.
+Do you really want to delete it? This will break references.
+
+Reference List:
+
+Floor37
+Floor38
+Floor39
+Floor355
+Floor356
+Floor357
+Floor358
+Floor359
+Floor360
+[2020.09.04-04.15.13:089][529]LogEditorActor: Deleted Actor: GroupActor
+[2020.09.04-04.15.13:090][529]LogEditorActor: Actor GroupActor1 is referenced by Floor25.
+[2020.09.04-04.15.13:090][529]LogEditorActor: Actor GroupActor1 is referenced by Floor26.
+[2020.09.04-04.15.13:090][529]LogEditorActor: Actor GroupActor1 is referenced by Floor27.
+[2020.09.04-04.15.13:090][529]LogEditorActor: Actor GroupActor1 is referenced by Floor155.
+[2020.09.04-04.15.13:090][529]LogEditorActor: Actor GroupActor1 is referenced by Floor224.
+[2020.09.04-04.15.13:090][529]LogEditorActor: Actor GroupActor1 is referenced by Floor225.
+[2020.09.04-04.15.13:090][529]LogEditorActor: Actor GroupActor1 is referenced by Floor226.
+[2020.09.04-04.15.13:090][529]LogEditorActor: Actor GroupActor1 is referenced by Floor227.
+[2020.09.04-04.15.13:090][529]LogEditorActor: Actor GroupActor1 is referenced by Floor228.
+[2020.09.04-04.15.13:090][529]LogEditorActor: Deleted Actor: GroupActor
+[2020.09.04-04.15.13:091][529]LogEditorActor: Actor GroupActor2 is referenced by Floor22.
+[2020.09.04-04.15.13:091][529]LogEditorActor: Actor GroupActor2 is referenced by Floor23.
+[2020.09.04-04.15.13:091][529]LogEditorActor: Actor GroupActor2 is referenced by Floor24.
+[2020.09.04-04.15.13:091][529]LogEditorActor: Actor GroupActor2 is referenced by Floor55.
+[2020.09.04-04.15.13:091][529]LogEditorActor: Actor GroupActor2 is referenced by Floor56.
+[2020.09.04-04.15.13:091][529]LogEditorActor: Actor GroupActor2 is referenced by Floor57.
+[2020.09.04-04.15.13:091][529]LogEditorActor: Actor GroupActor2 is referenced by Floor58.
+[2020.09.04-04.15.13:091][529]LogEditorActor: Actor GroupActor2 is referenced by Floor59.
+[2020.09.04-04.15.13:091][529]LogEditorActor: Actor GroupActor2 is referenced by Floor60.
+[2020.09.04-04.15.13:091][529]LogEditorActor: Deleted Actor: GroupActor
+[2020.09.04-04.15.13:091][529]LogEditorActor: Actor GroupActor3 is referenced by Floor10.
+[2020.09.04-04.15.13:091][529]LogEditorActor: Actor GroupActor3 is referenced by Floor11.
+[2020.09.04-04.15.13:091][529]LogEditorActor: Actor GroupActor3 is referenced by Floor12.
+[2020.09.04-04.15.13:091][529]LogEditorActor: Actor GroupActor3 is referenced by Floor49.
+[2020.09.04-04.15.13:092][529]LogEditorActor: Actor GroupActor3 is referenced by Floor50.
+[2020.09.04-04.15.13:092][529]LogEditorActor: Actor GroupActor3 is referenced by Floor51.
+[2020.09.04-04.15.13:092][529]LogEditorActor: Actor GroupActor3 is referenced by Floor52.
+[2020.09.04-04.15.13:092][529]LogEditorActor: Actor GroupActor3 is referenced by Floor53.
+[2020.09.04-04.15.13:092][529]LogEditorActor: Actor GroupActor3 is referenced by Floor54.
+[2020.09.04-04.15.13:092][529]LogEditorActor: Deleted Actor: GroupActor
+[2020.09.04-04.15.13:116][529]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2020.09.04-04.15.13:118][529]LogEditorActor: Deleted 40 Actors (0.070 secs)
+[2020.09.04-04.15.16:182][892]Cmd: DELETE
+[2020.09.04-04.15.16:182][892]Cmd: ACTOR DELETE
+[2020.09.04-04.15.16:207][892]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2020.09.04-04.15.16:208][892]LogEditorActor: Deleted 0 Actors (0.025 secs)
+[2020.09.04-04.15.31:330][561]Cmd: DELETE
+[2020.09.04-04.15.31:331][561]Cmd: ACTOR DELETE
+[2020.09.04-04.15.31:361][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:361][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:362][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:362][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:362][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:363][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:363][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:363][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:364][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:364][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:365][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:366][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:367][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:368][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:368][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:369][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:370][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:371][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:371][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:371][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:372][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:372][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:372][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:373][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:373][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:373][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:374][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:374][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:374][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:375][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:375][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:375][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:375][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:376][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:376][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:376][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:377][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:377][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:377][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:377][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:378][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:378][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:378][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:378][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:379][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:397][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:399][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:399][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:399][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:400][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:400][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:401][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:401][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:402][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:402][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:403][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:403][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:404][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:404][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:405][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:405][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:406][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:406][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:407][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:407][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:408][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:408][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:409][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:409][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:410][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:410][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:411][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:411][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:412][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:412][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:412][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:413][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:413][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:414][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:414][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:415][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:415][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:415][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:416][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:416][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:417][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:417][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:417][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:418][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:418][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:419][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:419][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:420][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:420][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:421][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:422][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:423][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:424][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:425][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:426][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:427][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:428][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:429][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:430][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:431][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:431][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:431][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:432][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:432][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:433][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:433][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:433][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:434][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:434][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:434][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:435][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:435][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:436][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:436][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:436][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:437][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:437][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:438][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:438][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:438][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:439][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:439][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:440][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:440][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:441][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:442][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:442][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:443][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:444][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:445][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:445][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:445][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:446][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:446][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:446][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:447][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:447][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:447][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:448][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:448][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:448][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:449][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:449][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:449][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:450][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:450][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:450][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:451][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:451][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:451][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:452][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:452][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:452][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:453][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:453][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:453][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:453][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:454][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:454][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:454][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:455][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:455][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:455][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:456][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:456][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:456][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:456][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:457][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:457][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:457][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:457][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:458][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:459][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:459][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:460][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:480][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:481][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:482][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:483][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:484][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:486][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:487][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:488][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:489][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:490][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:491][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:491][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:492][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:492][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:493][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:493][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:494][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:494][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:495][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:495][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:496][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:496][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:497][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:497][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:498][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:498][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:498][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:499][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:499][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:500][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:500][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:501][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:501][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:502][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:502][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:503][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:503][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:504][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:504][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:505][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:505][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:506][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:506][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:506][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:507][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:507][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:508][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:508][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:508][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:509][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:509][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:510][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:510][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:511][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:511][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:511][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:512][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:512][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:513][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:513][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:513][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:514][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:514][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:515][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:515][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:515][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:516][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:516][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:517][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:517][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:517][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:518][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:518][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:518][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:519][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:519][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:519][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:520][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:520][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:520][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:521][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:521][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:521][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:522][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:522][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:522][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:523][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:523][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:524][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:524][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:524][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:525][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:525][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:525][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:526][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:526][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:526][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:527][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:527][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:527][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:528][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:528][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:528][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:529][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:529][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:529][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:530][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:530][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:531][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:531][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:531][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:532][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:532][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:532][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:532][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:533][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:533][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:533][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:534][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:534][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:534][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:535][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:535][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:535][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:536][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:536][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:536][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:537][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:537][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:537][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:538][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:538][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:539][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:539][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:540][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:549][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:550][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:550][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:551][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:552][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:553][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:554][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:555][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:555][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:556][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:557][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:558][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:559][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:559][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:559][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:560][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:560][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:561][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:562][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:562][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:563][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:564][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:564][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:565][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:565][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:565][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:566][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:566][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:566][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:566][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:567][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:567][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:567][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:568][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:568][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:568][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:568][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:569][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:569][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:569][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:569][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:570][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:570][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:570][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:571][561]LogEditorActor: Deleted Actor: Floor_C
+[2020.09.04-04.15.31:571][561]LogEditorActor: Actor GroupActor4 is referenced by Floor40.
+[2020.09.04-04.15.31:571][561]LogEditorActor: Actor GroupActor4 is referenced by Floor41.
+[2020.09.04-04.15.31:571][561]LogEditorActor: Actor GroupActor4 is referenced by Floor42.
+[2020.09.04-04.15.31:571][561]LogEditorActor: Actor GroupActor4 is referenced by Floor43.
+[2020.09.04-04.15.31:571][561]LogEditorActor: Actor GroupActor4 is referenced by Floor44.
+[2020.09.04-04.15.31:571][561]LogEditorActor: Actor GroupActor4 is referenced by Floor45.
+[2020.09.04-04.15.31:571][561]LogEditorActor: Actor GroupActor4 is referenced by Floor46.
+[2020.09.04-04.15.31:571][561]LogEditorActor: Actor GroupActor4 is referenced by Floor47.
+[2020.09.04-04.15.31:571][561]LogEditorActor: Actor GroupActor4 is referenced by Floor48.
+[2020.09.04-04.15.31:571][561]LogEditorActor: Actor GroupActor4 is referenced by Floor361.
+[2020.09.04-04.15.31:571][561]LogEditorActor: Actor GroupActor4 is referenced by Floor362.
+[2020.09.04-04.15.31:571][561]LogEditorActor: Actor GroupActor4 is referenced by Floor363.
+[2020.09.04-04.15.31:571][561]LogEditorActor: Actor GroupActor4 is referenced by Floor364.
+[2020.09.04-04.15.31:571][561]LogEditorActor: Actor GroupActor4 is referenced by Floor365.
+[2020.09.04-04.15.31:571][561]LogEditorActor: Actor GroupActor4 is referenced by Floor366.
+[2020.09.04-04.15.31:571][561]LogEditorActor: Actor GroupActor4 is referenced by Floor367.
+[2020.09.04-04.15.31:571][561]LogEditorActor: Actor GroupActor4 is referenced by Floor368.
+[2020.09.04-04.15.31:571][561]LogEditorActor: Actor GroupActor4 is referenced by Floor369.
+[2020.09.04-04.15.31:571][561]LogEditorActor: Actor GroupActor4 is referenced by Floor370.
+[2020.09.04-04.15.31:572][561]LogEditorActor: Actor GroupActor4 is referenced by Floor371.
+[2020.09.04-04.15.31:572][561]LogEditorActor: Actor GroupActor4 is referenced by Floor372.
+[2020.09.04-04.15.31:572][561]LogEditorActor: Actor GroupActor4 is referenced by Floor373.
+[2020.09.04-04.15.31:572][561]LogEditorActor: Actor GroupActor4 is referenced by Floor374.
+[2020.09.04-04.15.31:572][561]LogEditorActor: Actor GroupActor4 is referenced by Floor375.
+[2020.09.04-04.15.31:572][561]LogEditorActor: Actor GroupActor4 is referenced by Floor376.
+[2020.09.04-04.15.31:572][561]LogEditorActor: Actor GroupActor4 is referenced by Floor377.
+[2020.09.04-04.15.31:572][561]LogEditorActor: Actor GroupActor4 is referenced by Floor378.
+[2020.09.04-04.15.31:572][561]LogEditorActor: Actor GroupActor4 is referenced by Floor379.
+[2020.09.04-04.15.31:572][561]LogEditorActor: Actor GroupActor4 is referenced by Floor380.
+[2020.09.04-04.15.31:572][561]LogEditorActor: Actor GroupActor4 is referenced by Floor381.
+[2020.09.04-04.15.31:572][561]LogEditorActor: Actor GroupActor4 is referenced by Floor382.
+[2020.09.04-04.15.31:572][561]LogEditorActor: Actor GroupActor4 is referenced by Floor383.
+[2020.09.04-04.15.31:572][561]LogEditorActor: Actor GroupActor4 is referenced by Floor384.
+[2020.09.04-04.15.31:572][561]LogEditorActor: Actor GroupActor4 is referenced by Floor385.
+[2020.09.04-04.15.31:572][561]LogEditorActor: Actor GroupActor4 is referenced by Floor386.
+[2020.09.04-04.15.31:572][561]LogEditorActor: Actor GroupActor4 is referenced by Floor387.
+[2020.09.04-04.15.31:572][561]LogEditorActor: Actor GroupActor4 is referenced by Floor388.
+[2020.09.04-04.15.31:572][561]LogEditorActor: Actor GroupActor4 is referenced by Floor389.
+[2020.09.04-04.15.31:572][561]LogEditorActor: Actor GroupActor4 is referenced by Floor390.
+[2020.09.04-04.15.31:572][561]LogEditorActor: Actor GroupActor4 is referenced by Floor391.
+[2020.09.04-04.15.31:572][561]LogEditorActor: Actor GroupActor4 is referenced by Floor392.
+[2020.09.04-04.15.31:572][561]LogEditorActor: Actor GroupActor4 is referenced by Floor393.
+[2020.09.04-04.15.31:572][561]LogEditorActor: Actor GroupActor4 is referenced by Floor394.
+[2020.09.04-04.15.31:572][561]LogEditorActor: Actor GroupActor4 is referenced by Floor395.
+[2020.09.04-04.15.31:572][561]LogEditorActor: Actor GroupActor4 is referenced by Floor396.
+[2020.09.04-04.15.33:192][561]LogSlate: Window 'Message' being destroyed
+[2020.09.04-04.15.33:195][561]Message dialog closed, result: YesAll, title: Message, text: Actor GroupActor4 is referenced by other Actors/Objects.
+Do you really want to delete it? This will break references.
+
+Reference List:
+
+Floor40
+Floor41
+Floor42
+Floor43
+Floor44
+Floor45
+Floor46
+Floor47
+Floor48
+Floor361
+Floor362
+Floor363
+Floor364
+Floor365
+Floor366
+Floor367
+Floor368
+Floor369
+Floor370
+Floor371
+Floor372
+Floor373
+Floor374
+Floor375
+Floor376
+Floor377
+Floor378
+Floor379
+Floor380
+Floor381
+Floor382
+Floor383
+Floor384
+Floor385
+Floor386
+Floor387
+Floor388
+Floor389
+Floor390
+Floor391
+Floor392
+Floor393
+Floor394
+Floor395
+Floor396
+[2020.09.04-04.15.33:195][561]LogEditorActor: Deleted Actor: GroupActor
+[2020.09.04-04.15.33:196][561]LogEditorActor: Actor GroupActor5 is referenced by Floor28.
+[2020.09.04-04.15.33:196][561]LogEditorActor: Actor GroupActor5 is referenced by Floor29.
+[2020.09.04-04.15.33:196][561]LogEditorActor: Actor GroupActor5 is referenced by Floor30.
+[2020.09.04-04.15.33:196][561]LogEditorActor: Actor GroupActor5 is referenced by Floor31.
+[2020.09.04-04.15.33:196][561]LogEditorActor: Actor GroupActor5 is referenced by Floor32.
+[2020.09.04-04.15.33:196][561]LogEditorActor: Actor GroupActor5 is referenced by Floor33.
+[2020.09.04-04.15.33:196][561]LogEditorActor: Actor GroupActor5 is referenced by Floor34.
+[2020.09.04-04.15.33:196][561]LogEditorActor: Actor GroupActor5 is referenced by Floor35.
+[2020.09.04-04.15.33:196][561]LogEditorActor: Actor GroupActor5 is referenced by Floor36.
+[2020.09.04-04.15.33:196][561]LogEditorActor: Actor GroupActor5 is referenced by Floor229.
+[2020.09.04-04.15.33:196][561]LogEditorActor: Actor GroupActor5 is referenced by Floor230.
+[2020.09.04-04.15.33:196][561]LogEditorActor: Actor GroupActor5 is referenced by Floor231.
+[2020.09.04-04.15.33:196][561]LogEditorActor: Actor GroupActor5 is referenced by Floor232.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor233.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor234.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor235.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor236.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor237.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor238.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor239.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor240.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor241.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor242.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor243.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor244.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor245.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor246.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor247.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor248.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor249.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor250.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor251.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor252.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor253.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor254.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor255.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor256.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor257.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor258.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor259.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor260.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor261.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor262.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor263.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor264.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor265.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor266.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor267.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor268.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor269.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor270.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor271.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor272.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor273.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor274.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor275.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor276.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor277.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor278.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor279.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor280.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor281.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor282.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor283.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor284.
+[2020.09.04-04.15.33:197][561]LogEditorActor: Actor GroupActor5 is referenced by Floor285.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor286.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor287.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor288.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor289.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor290.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor291.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor292.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor293.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor294.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor295.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor296.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor297.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor298.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor299.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor300.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor301.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor302.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor303.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor304.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor305.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor306.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor307.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor308.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor309.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor310.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor311.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor312.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor313.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor314.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor315.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor316.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor317.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor318.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor319.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor320.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor321.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor322.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor323.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor324.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor325.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor326.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor327.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor328.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor329.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor330.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor331.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor332.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor333.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor334.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor335.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor336.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor337.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor338.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor339.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor340.
+[2020.09.04-04.15.33:198][561]LogEditorActor: Actor GroupActor5 is referenced by Floor341.
+[2020.09.04-04.15.33:199][561]LogEditorActor: Actor GroupActor5 is referenced by Floor342.
+[2020.09.04-04.15.33:199][561]LogEditorActor: Actor GroupActor5 is referenced by Floor343.
+[2020.09.04-04.15.33:199][561]LogEditorActor: Actor GroupActor5 is referenced by Floor344.
+[2020.09.04-04.15.33:199][561]LogEditorActor: Actor GroupActor5 is referenced by Floor345.
+[2020.09.04-04.15.33:199][561]LogEditorActor: Actor GroupActor5 is referenced by Floor346.
+[2020.09.04-04.15.33:199][561]LogEditorActor: Actor GroupActor5 is referenced by Floor347.
+[2020.09.04-04.15.33:199][561]LogEditorActor: Actor GroupActor5 is referenced by Floor348.
+[2020.09.04-04.15.33:199][561]LogEditorActor: Actor GroupActor5 is referenced by Floor349.
+[2020.09.04-04.15.33:199][561]LogEditorActor: Actor GroupActor5 is referenced by Floor350.
+[2020.09.04-04.15.33:199][561]LogEditorActor: Actor GroupActor5 is referenced by Floor351.
+[2020.09.04-04.15.33:199][561]LogEditorActor: Actor GroupActor5 is referenced by Floor352.
+[2020.09.04-04.15.33:199][561]LogEditorActor: Actor GroupActor5 is referenced by Floor353.
+[2020.09.04-04.15.33:199][561]LogEditorActor: Actor GroupActor5 is referenced by Floor354.
+[2020.09.04-04.15.33:200][561]LogEditorActor: Deleted Actor: GroupActor
+[2020.09.04-04.15.33:200][561]LogEditorActor: Actor GroupActor6 is referenced by Floor13.
+[2020.09.04-04.15.33:200][561]LogEditorActor: Actor GroupActor6 is referenced by Floor14.
+[2020.09.04-04.15.33:200][561]LogEditorActor: Actor GroupActor6 is referenced by Floor15.
+[2020.09.04-04.15.33:200][561]LogEditorActor: Actor GroupActor6 is referenced by Floor16.
+[2020.09.04-04.15.33:200][561]LogEditorActor: Actor GroupActor6 is referenced by Floor17.
+[2020.09.04-04.15.33:200][561]LogEditorActor: Actor GroupActor6 is referenced by Floor18.
+[2020.09.04-04.15.33:200][561]LogEditorActor: Actor GroupActor6 is referenced by Floor19.
+[2020.09.04-04.15.33:200][561]LogEditorActor: Actor GroupActor6 is referenced by Floor20.
+[2020.09.04-04.15.33:200][561]LogEditorActor: Actor GroupActor6 is referenced by Floor21.
+[2020.09.04-04.15.33:200][561]LogEditorActor: Actor GroupActor6 is referenced by Floor61.
+[2020.09.04-04.15.33:200][561]LogEditorActor: Actor GroupActor6 is referenced by Floor62.
+[2020.09.04-04.15.33:200][561]LogEditorActor: Actor GroupActor6 is referenced by Floor63.
+[2020.09.04-04.15.33:200][561]LogEditorActor: Actor GroupActor6 is referenced by Floor64.
+[2020.09.04-04.15.33:200][561]LogEditorActor: Actor GroupActor6 is referenced by Floor65.
+[2020.09.04-04.15.33:200][561]LogEditorActor: Actor GroupActor6 is referenced by Floor66.
+[2020.09.04-04.15.33:200][561]LogEditorActor: Actor GroupActor6 is referenced by Floor67.
+[2020.09.04-04.15.33:200][561]LogEditorActor: Actor GroupActor6 is referenced by Floor68.
+[2020.09.04-04.15.33:200][561]LogEditorActor: Actor GroupActor6 is referenced by Floor69.
+[2020.09.04-04.15.33:200][561]LogEditorActor: Actor GroupActor6 is referenced by Floor70.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor71.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor72.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor73.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor74.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor75.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor76.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor77.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor78.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor79.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor80.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor81.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor82.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor83.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor84.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor85.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor86.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor87.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor88.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor89.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor90.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor91.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor92.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor93.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor94.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor95.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor96.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor133.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor134.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor135.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor136.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor137.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor138.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor139.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor140.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor141.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor142.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor143.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor144.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor145.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor146.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor147.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor148.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor149.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor150.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor151.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor152.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor153.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor154.
+[2020.09.04-04.15.33:201][561]LogEditorActor: Actor GroupActor6 is referenced by Floor156.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor157.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor158.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor159.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor160.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor161.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor162.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor163.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor164.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor165.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor166.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor167.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor177.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor186.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor187.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor188.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor189.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor190.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor191.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor192.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor193.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor194.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor195.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor196.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor197.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor198.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor199.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor200.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor201.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor202.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor203.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor204.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor205.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor206.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor207.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor208.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor209.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor210.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor211.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor212.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor213.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor214.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor215.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor216.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor217.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor218.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor219.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor220.
+[2020.09.04-04.15.33:202][561]LogEditorActor: Actor GroupActor6 is referenced by Floor221.
+[2020.09.04-04.15.33:203][561]LogEditorActor: Actor GroupActor6 is referenced by Floor222.
+[2020.09.04-04.15.33:203][561]LogEditorActor: Actor GroupActor6 is referenced by Floor168.
+[2020.09.04-04.15.33:203][561]LogEditorActor: Actor GroupActor6 is referenced by Floor169.
+[2020.09.04-04.15.33:203][561]LogEditorActor: Actor GroupActor6 is referenced by Floor170.
+[2020.09.04-04.15.33:203][561]LogEditorActor: Actor GroupActor6 is referenced by Floor171.
+[2020.09.04-04.15.33:203][561]LogEditorActor: Actor GroupActor6 is referenced by Floor172.
+[2020.09.04-04.15.33:203][561]LogEditorActor: Actor GroupActor6 is referenced by Floor173.
+[2020.09.04-04.15.33:203][561]LogEditorActor: Actor GroupActor6 is referenced by Floor174.
+[2020.09.04-04.15.33:203][561]LogEditorActor: Actor GroupActor6 is referenced by Floor175.
+[2020.09.04-04.15.33:203][561]LogEditorActor: Actor GroupActor6 is referenced by Floor176.
+[2020.09.04-04.15.33:203][561]LogEditorActor: Actor GroupActor6 is referenced by Floor178.
+[2020.09.04-04.15.33:203][561]LogEditorActor: Actor GroupActor6 is referenced by Floor179.
+[2020.09.04-04.15.33:203][561]LogEditorActor: Actor GroupActor6 is referenced by Floor180.
+[2020.09.04-04.15.33:203][561]LogEditorActor: Actor GroupActor6 is referenced by Floor181.
+[2020.09.04-04.15.33:203][561]LogEditorActor: Actor GroupActor6 is referenced by Floor182.
+[2020.09.04-04.15.33:203][561]LogEditorActor: Actor GroupActor6 is referenced by Floor183.
+[2020.09.04-04.15.33:203][561]LogEditorActor: Actor GroupActor6 is referenced by Floor184.
+[2020.09.04-04.15.33:203][561]LogEditorActor: Actor GroupActor6 is referenced by Floor185.
+[2020.09.04-04.15.33:203][561]LogEditorActor: Actor GroupActor6 is referenced by Floor223.
+[2020.09.04-04.15.33:203][561]LogEditorActor: Deleted Actor: GroupActor
+[2020.09.04-04.15.33:204][561]LogEditorActor: Actor GroupActor7 is referenced by Floor.
+[2020.09.04-04.15.33:204][561]LogEditorActor: Actor GroupActor7 is referenced by Floor2.
+[2020.09.04-04.15.33:204][561]LogEditorActor: Actor GroupActor7 is referenced by Floor3.
+[2020.09.04-04.15.33:204][561]LogEditorActor: Actor GroupActor7 is referenced by Floor4.
+[2020.09.04-04.15.33:204][561]LogEditorActor: Actor GroupActor7 is referenced by Floor5.
+[2020.09.04-04.15.33:204][561]LogEditorActor: Actor GroupActor7 is referenced by Floor6.
+[2020.09.04-04.15.33:204][561]LogEditorActor: Actor GroupActor7 is referenced by Floor7.
+[2020.09.04-04.15.33:204][561]LogEditorActor: Actor GroupActor7 is referenced by Floor8.
+[2020.09.04-04.15.33:204][561]LogEditorActor: Actor GroupActor7 is referenced by Floor9.
+[2020.09.04-04.15.33:204][561]LogEditorActor: Actor GroupActor7 is referenced by Floor97.
+[2020.09.04-04.15.33:204][561]LogEditorActor: Actor GroupActor7 is referenced by Floor98.
+[2020.09.04-04.15.33:204][561]LogEditorActor: Actor GroupActor7 is referenced by Floor99.
+[2020.09.04-04.15.33:204][561]LogEditorActor: Actor GroupActor7 is referenced by Floor100.
+[2020.09.04-04.15.33:205][561]LogEditorActor: Actor GroupActor7 is referenced by Floor101.
+[2020.09.04-04.15.33:205][561]LogEditorActor: Actor GroupActor7 is referenced by Floor102.
+[2020.09.04-04.15.33:205][561]LogEditorActor: Actor GroupActor7 is referenced by Floor103.
+[2020.09.04-04.15.33:205][561]LogEditorActor: Actor GroupActor7 is referenced by Floor104.
+[2020.09.04-04.15.33:205][561]LogEditorActor: Actor GroupActor7 is referenced by Floor105.
+[2020.09.04-04.15.33:205][561]LogEditorActor: Actor GroupActor7 is referenced by Floor106.
+[2020.09.04-04.15.33:205][561]LogEditorActor: Actor GroupActor7 is referenced by Floor107.
+[2020.09.04-04.15.33:205][561]LogEditorActor: Actor GroupActor7 is referenced by Floor108.
+[2020.09.04-04.15.33:205][561]LogEditorActor: Actor GroupActor7 is referenced by Floor109.
+[2020.09.04-04.15.33:205][561]LogEditorActor: Actor GroupActor7 is referenced by Floor110.
+[2020.09.04-04.15.33:205][561]LogEditorActor: Actor GroupActor7 is referenced by Floor111.
+[2020.09.04-04.15.33:205][561]LogEditorActor: Actor GroupActor7 is referenced by Floor112.
+[2020.09.04-04.15.33:205][561]LogEditorActor: Actor GroupActor7 is referenced by Floor113.
+[2020.09.04-04.15.33:205][561]LogEditorActor: Actor GroupActor7 is referenced by Floor114.
+[2020.09.04-04.15.33:205][561]LogEditorActor: Actor GroupActor7 is referenced by Floor115.
+[2020.09.04-04.15.33:205][561]LogEditorActor: Actor GroupActor7 is referenced by Floor116.
+[2020.09.04-04.15.33:205][561]LogEditorActor: Actor GroupActor7 is referenced by Floor117.
+[2020.09.04-04.15.33:205][561]LogEditorActor: Actor GroupActor7 is referenced by Floor118.
+[2020.09.04-04.15.33:205][561]LogEditorActor: Actor GroupActor7 is referenced by Floor119.
+[2020.09.04-04.15.33:206][561]LogEditorActor: Actor GroupActor7 is referenced by Floor120.
+[2020.09.04-04.15.33:206][561]LogEditorActor: Actor GroupActor7 is referenced by Floor121.
+[2020.09.04-04.15.33:206][561]LogEditorActor: Actor GroupActor7 is referenced by Floor122.
+[2020.09.04-04.15.33:206][561]LogEditorActor: Actor GroupActor7 is referenced by Floor123.
+[2020.09.04-04.15.33:206][561]LogEditorActor: Actor GroupActor7 is referenced by Floor124.
+[2020.09.04-04.15.33:206][561]LogEditorActor: Actor GroupActor7 is referenced by Floor125.
+[2020.09.04-04.15.33:206][561]LogEditorActor: Actor GroupActor7 is referenced by Floor126.
+[2020.09.04-04.15.33:206][561]LogEditorActor: Actor GroupActor7 is referenced by Floor127.
+[2020.09.04-04.15.33:206][561]LogEditorActor: Actor GroupActor7 is referenced by Floor128.
+[2020.09.04-04.15.33:206][561]LogEditorActor: Actor GroupActor7 is referenced by Floor129.
+[2020.09.04-04.15.33:206][561]LogEditorActor: Actor GroupActor7 is referenced by Floor130.
+[2020.09.04-04.15.33:206][561]LogEditorActor: Actor GroupActor7 is referenced by Floor131.
+[2020.09.04-04.15.33:206][561]LogEditorActor: Actor GroupActor7 is referenced by Floor132.
+[2020.09.04-04.15.33:206][561]LogEditorActor: Deleted Actor: GroupActor
+[2020.09.04-04.15.33:238][561]LogUObjectHash: Compacting FUObjectHashTables data took   4.17ms
+[2020.09.04-04.15.33:239][561]LogEditorActor: Deleted 364 Actors (0.285 secs)
+[2020.09.04-04.15.36:679][947]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.09.04-04.15.46:096][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.04-04.15.46:118][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2020.09.04-04.15.46:182][ 27]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level00192AE060445D3637A96A2B8AFD3D9ACB4.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001.umap'
+[2020.09.04-04.15.46:237][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level001_BuiltData" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset" SILENT=true
+[2020.09.04-04.15.46:467][ 27]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/Level001_BuiltData2850DF924A3CC976E605AFAB2D5AABBD.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/Level001_BuiltData.uasset'
+[2020.09.04-04.15.46:485][ 27]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.04-04.15.46:485][ 27]LogContentValidation: Display: Validating World /Game/Levels/Level001.Level001
+[2020.09.04-04.15.46:485][ 27]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level001_BuiltData.Level001_BuiltData
+[2020.09.04-04.15.58:199][254]Cmd: EDIT COPY
+[2020.09.04-04.16.04:280][946]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/NewWorld.NewWorld
+[2020.09.04-04.16.04:312][946]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2020.09.04-04.16.06:925][946]LogSlate: Window 'Save Content' being destroyed
+[2020.09.04-04.16.06:938][946]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/NewWorld" FILE="D:/Document/Unreal Projects/PW5/Content/Levels/NewWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.04-04.16.06:962][946]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2020.09.04-04.16.06:969][946]LogSavePackage: Moving 'D:/Document/Unreal Projects/PW5/Saved/NewWorld4ED7D0ED474AD20EE9CF0AA547229E1B.tmp' to 'D:/Document/Unreal Projects/PW5/Content/Levels/NewWorld.umap'
+[2020.09.04-04.16.06:971][946]LogFileHelpers: Saving map 'NewWorld' took 0.034
+[2020.09.04-04.16.06:971][946]Cmd: MAP LOAD FILE="D:/Document/Unreal Projects/PW5/Content/Levels/NewWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.09.04-04.16.06:971][946]LightingResults: New page: Lighting Build
+[2020.09.04-04.16.06:972][946]LoadErrors: New page: Loading map: NewWorld.umap
+[2020.09.04-04.16.06:972][946]LogWorld: UWorld::CleanupWorld for Level001, bSessionEnded=true, bCleanupResources=true
+[2020.09.04-04.16.06:972][946]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.04-04.16.06:977][946]MapCheck: New page: Map Check
+[2020.09.04-04.16.06:978][946]LightingResults: New page: Lighting Build
+[2020.09.04-04.16.07:002][946]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C4CCC95C00), frame # 193946
+[2020.09.04-04.16.07:002][946]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C4C85360C0), frame # 193946
+[2020.09.04-04.16.07:008][946]LogUObjectHash: Compacting FUObjectHashTables data took   5.50ms
+[2020.09.04-04.16.07:012][946]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.04-04.16.07:012][946]LogAIModule: Creating AISystem for world NewWorld
+[2020.09.04-04.16.07:012][946]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C546627600), frame # 193946
+[2020.09.04-04.16.07:012][946]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C52B7616C0), frame # 193946
+[2020.09.04-04.16.07:036][946]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2020.09.04-04.16.07:082][946]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.04-04.16.07:082][946]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.188ms to complete.
+[2020.09.04-04.16.07:082][946]LogFileHelpers: Loading map 'NewWorld' took 0.111
+[2020.09.04-04.16.07:134][946]AssetCheck: New page: Asset Save: NewWorld
+[2020.09.04-04.16.07:134][946]LogContentValidation: Display: Validating World /Game/Levels/NewWorld.NewWorld
+[2020.09.04-04.16.09:055][175]Cmd: EDIT PASTE
